@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PNET_semestralka.props" />
+</Project>

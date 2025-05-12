@@ -1,0 +1,65 @@
+﻿v<!-- Doručovací údaje modal -->
+<div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="sendModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Doručovací údaje</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zavřít"></button>
+            </div>
+
+            <div class="container mb-3 mt-2">
+
+                <!-- Nová adresa checkbox -->
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="newAddressCheckbox" checked>
+                    <label class="form-check-label" for="newAddressCheckbox">Nové doručovací údaje</label>
+                </div>
+
+                <!-- Formulář pro novou adresu -->
+                <div id="newAddressForm" class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">Jméno</label>
+                        <input type="text" class="form-control address-input" id="firstName" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Příjmení</label>
+                        <input type="text" class="form-control address-input" id="lastName" required>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="ulice" class="form-label">Ulice</label>
+                        <input type="text" class="form-control address-input" id="ulice" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="cislopopisne" class="form-label">Číslo popisné</label>
+                        <input type="text" class="form-control address-input" id="cislopopisne" required>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="orijentacnicislo" class="form-label">Orientační číslo</label>
+                        <input type="text" class="form-control address-input" id="orijentacnicislo" required>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="psc" class="form-label">PSČ</label>
+                        <input type="text" class="form-control address-input" id="psc" required>
+                    </div>
+                    <div class="col-sm-8">
+                        <label for="mesto" class="form-label">Město</label>
+                        <input type="text" class="form-control address-input" id="mesto" required>
+                    </div>
+                    
+                </div>
+
+                <hr />
+                <label class="form-label mt-3">Poslední doručovací údaje:</label>
+                <div id="recent-addresses" class="list-group"></div>
+
+                <!-- Skrytý input pro odeslání ID -->
+                <input type="hidden" name="ExistingAddressId" id="existingAddressId" />
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                <input type="button" id="odeslat" class="btn btn-warning" value="Odeslat Objednávku" data-kosik-id="@Model.Id">
+            </div>
+        </div>
+    </div>
+</div>

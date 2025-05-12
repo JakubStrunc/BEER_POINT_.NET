@@ -1,0 +1,38 @@
+﻿<!-- Register Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="registerModalLabel">Registrace</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Uzivatelske jmeno txt pole -->
+                <div class="mb-3">
+                    <label for="signupFullnameInput" class="form-label">Uživatelské jméno</label>
+                    <input type="text" class="form-control" id="signupFullnameInput" name="uzivatelske_jmeno">
+                </div>
+                <!-- Email txt pole -->
+                <div class="mb-3">
+                    <label for="signupEmailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="signupEmailInput" name="email">
+                </div>
+                <!-- Heslo txt pole -->
+                <div class="mb-3">
+                    <label for="signupPasswordInput" class="form-label">Heslo</label>
+                    <input type="password" class="form-control" id="signupPasswordInput" name="heslo">
+                </div>
+                <!-- Potvrzeni hesla txt pole -->
+                <div class="mb-3">
+                    <label for="signupConfirmPasswordInput" class="form-label">Potvrdit heslo</label>
+                    <input type="password" class="form-control" id="signupConfirmPasswordInput" name="heslo2">
+                </div>
+            </div>
+            <!-- Footer btns -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                <input type="button" id="registerButton" class="btn btn-warning" value="Zaregistrovat se">
+            </div>
+        </div>
+    </div>
+</div>

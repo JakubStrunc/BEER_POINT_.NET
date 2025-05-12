@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home";
+    var isLoggedIn = Context.Session.GetString("IsLoggedIn") == "true";
+    var role = Context.Session.GetString("Role");
+}
+
+@Html.Partial("LoginModal")
+@Html.Partial("RegisterModal")
+
+<section class="py-5 mt-5" style="display: flex; flex-direction: column; min-height: 90vh; margin: 0;">
+    <div class="text-center">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                <!-- Produkty -->
+                @foreach (var product in Model)
+                {
+                    <div class="col" data-aos="fade-up">
+                        <div class="card d-flex flex-column" style="min-height: 68vh; max-height: 68vh;padding: 1rem;">
+                            <div class="card-body text-center">
+                                <!-- Obraz produktu -->
+                                <div>
+                                    <img src="@Url.Content($"~/img/produkty/{product.Photo}")"
+                                         alt="@product.Nazev"
+                                         class="bd-placeholder-img card-img-top"
+                                         style="width: auto; height: 200px; object-fit: cover;">
+                                </div>
+                                <!-- Jmeno produktu -->
+                                <div class="card-body">
+                                    <h5 id="jmeno_produktu@product.Id_produkt" class="card-title text-start">
+                                        @product.Nazev
+                                    </h5>
+                                    <p id="details@product.Id_produkt" class="card-text text-start">
+                                        @product.Popis
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="align-bottom text-end">
+                                <!-- Cena produktu -->
+                                <p id="price@product.Id_produkt" class="cart-text" style="font-size: 1.5em; color: green;">
+                                    @product.Cena Kč
+                                </p>
+
+                                <!-- Pridat do kosiku btn -->
+                                @if(role == "Customer"){
+                                    <input type="button" value="Přidat do košíku"
+                                           class="btn btn-warning add-to-cart-btn" data-product-id="@product.Id">
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

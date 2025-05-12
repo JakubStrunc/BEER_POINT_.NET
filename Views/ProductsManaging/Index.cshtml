@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Sprava Produktu";
+}
+
+@Html.Partial("ProductAddModal")
+@Html.Partial("ProductEditModal")
+
+
+<!-- Produkty -->
+<section class="mt-5 py-5" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center mb-12">
+            <div class="col-xl-10 col-xl-12">
+                <div class="card shadow-sm mb-3 p-3" style="min-height: 85vh;">
+                    <!-- Pridani produktu btn -->
+                    
+                    <div class="py-3 container text-end">
+                        <input type="button" data-bs-toggle="modal" class="btn btn-warning mb-4 btn-lg" value="Přidat Produkt" data-bs-target="#addproductModal">
+                    </div>
+                    
+                    <!-- Tabulka produktu -->
+                    <table class="table table-hover">
+                        <thead>
+                            <tr id="sprava_produktu_tab_tr_0">
+                                <th scope="col">ID produktu</th> <!-- Id produktu -->
+                                <th scope="col">Jméno</th> <!-- jmeno -->
+                                <th scope="col">Počet</th> <!-- pocet -->
+                                <th scope="col">Cena</th> <!-- Cena -->
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <!-- Produkty -->
+                        <tbody>
+                            @foreach (var p in Model)
+                            {
+                                <tr class="align-middle">
+                                    <th scope="row">@p.Id</th> <!-- ID produktu -->
+                                    <td>@p.Nazev</td> <!-- Nazev produktu -->
+                                    <td>@p.Mnozstvi</td> <!-- Mnozstvi produktu -->
+                                    <td>@p.Cena Kč</td> <!-- Cena produktu -->
+                                    <!-- Edit btn -->
+                                    
+                                    <td>
+                                        <button class="btn btn-link text-warning fw-bold edit-product-btn"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#editProductModal"
+                                                data-product-id="@p.Id">
+                                            <i class="bi bi-wrench"></i>
+                                        </button>
+                                    </td>
+                                    
+                                    <!-- Delete btn -->
+                                    <td>
+                                        <button type="button" class="btn btn-link text-danger fw-bold delete-product-btn" data-product-id="@p.Id">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

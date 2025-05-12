@@ -1,0 +1,121 @@
+﻿@model Order
+
+
+@{
+	ViewData["Title"] = "Kosik";
+}
+
+@Html.Partial("CartSendModal")
+
+
+<!-- Kosik -->
+<section class="py-5 mt-5" data-aos="fade-up">
+    <div class="container">
+        <div class="row justify-content-center mb-12">
+            <div class="col-xl-10 col-xl-12">
+                <div class="card shadow-sm mb-3 p-3 d-flex flex-column" style="min-height: 85vh;">
+                    <!-- Produkty kosiku -->
+                    @if (Model.OrderItems.Any())
+                    {
+                        var price = 0;
+
+                        <div class="flex-grow-1 mb-5" style=" padding-bottom: 1rem;">
+                            
+                            @foreach (var p in Model.OrderItems)
+                            {
+                                price += p.Pocet * p.Product.Cena;
+                                <div id="product@(p.Product.Id)" class="card rounded-3 mb-4">
+                                    <div class="card-body p-4">
+                                        <!-- Obrazek produktu -->
+                                        <div class="row d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                <img src="@Url.Content($"~/img/produkty/{p.Product.Photo}")"
+                                                alt="@p.Product.Nazev"
+                                                class="bd-placeholder-img card-img-top"
+                                                style="width: auto; height: 5svw; object-fit: cover;">
+                                            </div>
+                                            <!-- Nazev produktu -->
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <h5 class="card-title mb-0">@p.Product.Nazev</h5>
+                                            </div>
+
+                                            <!-- Množství produktu -->
+                                            <div id="quantityControl@(p.Product.Id)" class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                <div class="quantity-control d-flex align-items-center">
+                                                    <!-- Odebrání btn -->
+                                                    <button id="btnMinus@(p.Product.Id)" type="button" class="btn btn-warning px-2 btn-minus">
+                                                        <i class="bi bi-dash-lg"></i>
+                                                    </button>
+
+                                                    <!-- Pole pro množství -->
+                                                    <div class="mx-2 d-flex align-items-center">
+                                                        <input id="quantity@(p.Product.Id)"
+                                                               type="number"
+                                                               min="1"
+                                                               class="form-control form-control-lg text-center product-quantity"
+                                                               style="width: 80px;"
+                                                               value="@p.Pocet"
+                                                               data-price="@p.Product.Cena"
+                                                               data-product-id="@p.Product.Id" />
+                                                    </div>
+
+                                                    <!-- Přidání btn -->
+                                                    <button id="btnPlus@(p.Product.Id)" type="button" class="btn btn-warning px-2 btn-plus">
+                                                        <i class="bi bi-plus-lg"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <!-- Produktova cena -->
+                                            <div id="productTotal@(p.Product.Id)" class="col-md-3 col-lg-2 col-xl-2 offset-lg-1 text-end">
+                                                <h5 class="mb-0 text-success">@(@p.Pocet * @p.Product.Cena) Kč</h5>
+                                            </div>
+
+
+                                            <!-- Odebrat btn -->
+                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                <button type="button" class="btn btn-link text-danger remove-product-btn" data-product-id="@p.Product.Id">
+                                                    <i class="bi bi-cart-x-fill" style="font-size: 1.3rem"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <!-- Kosik bottom -->
+                        <div class="sticky-bottom bg-white pt-3">
+                            <hr class="my-4">
+                            <!-- Total cena -->
+                            <div class="text-end">
+                                <h4>Subtotal:</h4>
+                                <h1 id="orderTotal">@Model.OrderItems.Sum(p => p.Pocet * p.Product.Cena) Kč</h1>
+                            </div>
+
+
+                            <!-- Odeslat btn -->
+                            
+                            <div class="text-end">
+                                <button type="button"
+                                        id="openSendModal"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#sendModal"
+                                        class="btn btn-warning mb-4 btn-lg text-dark">
+                                    Odeslat <i class="bi bi-send-fill"></i>
+                                </button>
+                            </div>
+                                
+                            
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%;">
+                            <h3>HMM...</h3>
+                            <p>Vypadá to, že košík je prázdný.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
