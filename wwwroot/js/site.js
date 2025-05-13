@@ -7,9 +7,6 @@
     loadingScreen.style.left = "0";
     loadingScreen.style.width = "100%";
     loadingScreen.style.height = "100%";
-    loadingScreen.style.backgroundImage = "url('~/img/backgroundbeeropoint.jpg')"; 
-    loadingScreen.style.backgroundSize = "cover";
-    loadingScreen.style.backgroundPosition = "center";
     loadingScreen.style.zIndex = "9999";
     loadingScreen.style.display = "flex";
     loadingScreen.style.justifyContent = "center";
