@@ -1,29 +1,34 @@
-﻿$(document).on('click', '#prihlasit', function (event) {
+﻿// Handle the login button click event
+$(document).on('click', '#prihlasit', function (event) {
     event.preventDefault();
 
     $('.text-danger').remove();
 
+    // Send AJAX request to login
     $.ajax({
-        url: '/Home/Login',
-        type: 'POST',
-        contentType: 'application/json',
+        url: '/Home/Login', // URL for the login 
+        type: 'POST', 
+        contentType: 'application/json', 
         data: JSON.stringify({
-            Email: $('#signinEmailInput').val(),
-            Password: $('#signinPassInput').val()
+            Email: $('#signinEmailInput').val(), 
+            Password: $('#signinPassInput').val() 
         }),
         success: function (response) {
             if (response.success) {
-                // Uložíme info pro toast po reloadu
+                // if login is successful, store toast info for displaying after reload
                 sessionStorage.setItem("showToast", "true");
                 sessionStorage.setItem("toastText", "Přihlášení bylo úspěšné!");
                 sessionStorage.setItem("toastColor", "#28a745");
+
                 window.location.href = '/';
             } else {
-                showToast("Chyba: " + response, "#dc3545");
+                // show error
+                showToast("Chyba: " + response, "#dc3545"); 
             }
         },
         error: function (xhr) {
-            showToast("Chyba při přihlášení: " + xhr.responseText, "#dc3545");
+            // show error if AJAX request fails
+            showToast("Chyba při přihlášení: " + xhr.responseText, "#dc3545"); 
         }
     });
 });

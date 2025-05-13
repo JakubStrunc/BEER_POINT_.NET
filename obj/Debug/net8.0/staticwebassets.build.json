@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YAUoftATBN+kuyX95FUpeLrp9m7//L/vaU6Z/2Zl4nU=",
+  "Hash": "zelqvEmfWQKE2JcydopNJPjWjLPQ8gk/c6SNCcvG0LQ=",
   "Source": "PNET_semestralka",
   "BasePath": "_content/PNET_semestralka",
   "Mode": "Default",
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1zy0e94vzm",
-      "Integrity": "DUO4ry6GtKB33z+YHF6JdPlA894LE8Sc8uIWf+YP4DQ=",
+      "Fingerprint": "dsg2fl3mi2",
+      "Integrity": "fVSiZV+spJMQVW6ZguhiCmnsL9NjcPNIncQRXyrlGjM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\AlertHandler.js"
@@ -409,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7uil261geq",
-      "Integrity": "YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns=",
+      "Fingerprint": "gpordxvqah",
+      "Integrity": "LImcOh1FiK+cyJfqNERpbViA8Tc3pIrsrl7Xi1MC2yw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\CartJS\\Cart.js"
@@ -430,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n8st6bzzpy",
-      "Integrity": "N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8=",
+      "Fingerprint": "g0hnyt9g92",
+      "Integrity": "IMR2hm1P9oKZMo/0S1T4Zfd/xjmpgR7aeVzLVflvaDI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\CartJS\\CartSend.js"
@@ -451,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9yjorf180w",
-      "Integrity": "ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4=",
+      "Fingerprint": "7bh0rbvp75",
+      "Integrity": "o44rqn6iA70FG9DhCeNJ4ArceeDzhokW5hIOClagzxE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\HomeJS\\Home.js"
@@ -472,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a7ffjtsw40",
-      "Integrity": "tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4=",
+      "Fingerprint": "6i6fyp52xk",
+      "Integrity": "rgRlbVbGIHE7ZNmTkR3NsVTXNrsFn14NRigavcKOihM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\OrderAllJS\\Orders.js"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2t63a7fdky",
-      "Integrity": "ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc=",
+      "Fingerprint": "qbl3ykxpbs",
+      "Integrity": "Su+gXSNYzCq6JHsh8SoHvzUk0VE7cUT/mRdvcx1Aex0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\ProductManagingJS\\ProductManaging.js"
@@ -514,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7tv5vny2ev",
-      "Integrity": "tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=",
+      "Fingerprint": "3tryh09njb",
+      "Integrity": "R8JqN2RmOh8hZg3plxjuORaQRoc5i48is8x2NGNkmAc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -535,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hjuis0excs",
-      "Integrity": "49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=",
+      "Fingerprint": "d411ktjxmc",
+      "Integrity": "7VOAgT+Xj4A6znM/Ks42m8xLqVF0OeG43EVgwnTPXfs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\UserJS\\Login.js"
@@ -556,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "att20huv7v",
-      "Integrity": "bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=",
+      "Fingerprint": "urlq6qdt5y",
+      "Integrity": "RpFwV4xbC7WmmegsXEKqb5kbzBNuo3nzNPG2BFf3988=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\UserJS\\Logout.js"
@@ -577,8 +577,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sosu4i80y4",
-      "Integrity": "RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM=",
+      "Fingerprint": "ijpfnryjib",
+      "Integrity": "8i1b2Oc5u7bih8BsOrTsTpsOFIkOz908FRXUk/olpcU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\UserJS\\Register.js"
@@ -3013,7 +3013,7 @@
       ]
     },
     {
-      "Route": "js/AlertHandler.1zy0e94vzm.js",
+      "Route": "js/AlertHandler.dsg2fl3mi2.js",
       "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\AlertHandler.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3023,7 +3023,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "817"
+          "Value": "1076"
         },
         {
           "Name": "Content-Type",
@@ -3031,11 +3031,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DUO4ry6GtKB33z+YHF6JdPlA894LE8Sc8uIWf+YP4DQ=\""
+          "Value": "\"fVSiZV+spJMQVW6ZguhiCmnsL9NjcPNIncQRXyrlGjM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 17:53:54 GMT"
+          "Value": "Tue, 13 May 2025 11:22:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3045,7 +3045,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1zy0e94vzm"
+          "Value": "dsg2fl3mi2"
         },
         {
           "Name": "label",
@@ -3053,7 +3053,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DUO4ry6GtKB33z+YHF6JdPlA894LE8Sc8uIWf+YP4DQ="
+          "Value": "sha256-fVSiZV+spJMQVW6ZguhiCmnsL9NjcPNIncQRXyrlGjM="
         }
       ]
     },
@@ -3068,7 +3068,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "817"
+          "Value": "1076"
         },
         {
           "Name": "Content-Type",
@@ -3076,11 +3076,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DUO4ry6GtKB33z+YHF6JdPlA894LE8Sc8uIWf+YP4DQ=\""
+          "Value": "\"fVSiZV+spJMQVW6ZguhiCmnsL9NjcPNIncQRXyrlGjM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 17:53:54 GMT"
+          "Value": "Tue, 13 May 2025 11:22:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3090,12 +3090,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DUO4ry6GtKB33z+YHF6JdPlA894LE8Sc8uIWf+YP4DQ="
+          "Value": "sha256-fVSiZV+spJMQVW6ZguhiCmnsL9NjcPNIncQRXyrlGjM="
         }
       ]
     },
     {
-      "Route": "js/CartJS/Cart.7uil261geq.js",
+      "Route": "js/CartJS/Cart.gpordxvqah.js",
       "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3105,7 +3105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3453"
+          "Value": "4130"
         },
         {
           "Name": "Content-Type",
@@ -3113,11 +3113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns=\""
+          "Value": "\"LImcOh1FiK+cyJfqNERpbViA8Tc3pIrsrl7Xi1MC2yw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:20:14 GMT"
+          "Value": "Tue, 13 May 2025 10:55:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3127,7 +3127,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7uil261geq"
+          "Value": "gpordxvqah"
         },
         {
           "Name": "label",
@@ -3135,7 +3135,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns="
+          "Value": "sha256-LImcOh1FiK+cyJfqNERpbViA8Tc3pIrsrl7Xi1MC2yw="
         }
       ]
     },
@@ -3150,7 +3150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3453"
+          "Value": "4130"
         },
         {
           "Name": "Content-Type",
@@ -3158,11 +3158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns=\""
+          "Value": "\"LImcOh1FiK+cyJfqNERpbViA8Tc3pIrsrl7Xi1MC2yw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:20:14 GMT"
+          "Value": "Tue, 13 May 2025 10:55:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3172,7 +3172,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns="
+          "Value": "sha256-LImcOh1FiK+cyJfqNERpbViA8Tc3pIrsrl7Xi1MC2yw="
+        }
+      ]
+    },
+    {
+      "Route": "js/CartJS/CartSend.g0hnyt9g92.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IMR2hm1P9oKZMo/0S1T4Zfd/xjmpgR7aeVzLVflvaDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:02:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0hnyt9g92"
+        },
+        {
+          "Name": "label",
+          "Value": "js/CartJS/CartSend.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IMR2hm1P9oKZMo/0S1T4Zfd/xjmpgR7aeVzLVflvaDI="
         }
       ]
     },
@@ -3187,7 +3232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3871"
+          "Value": "4245"
         },
         {
           "Name": "Content-Type",
@@ -3195,11 +3240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8=\""
+          "Value": "\"IMR2hm1P9oKZMo/0S1T4Zfd/xjmpgR7aeVzLVflvaDI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 09:49:31 GMT"
+          "Value": "Tue, 13 May 2025 11:02:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3209,57 +3254,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8="
+          "Value": "sha256-IMR2hm1P9oKZMo/0S1T4Zfd/xjmpgR7aeVzLVflvaDI="
         }
       ]
     },
     {
-      "Route": "js/CartJS/CartSend.n8st6bzzpy.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3871"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 09:49:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "n8st6bzzpy"
-        },
-        {
-          "Name": "label",
-          "Value": "js/CartJS/CartSend.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8="
-        }
-      ]
-    },
-    {
-      "Route": "js/HomeJS/Home.9yjorf180w.js",
+      "Route": "js/HomeJS/Home.7bh0rbvp75.js",
       "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3269,7 +3269,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "822"
+          "Value": "994"
         },
         {
           "Name": "Content-Type",
@@ -3277,11 +3277,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4=\""
+          "Value": "\"o44rqn6iA70FG9DhCeNJ4ArceeDzhokW5hIOClagzxE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 17:55:59 GMT"
+          "Value": "Tue, 13 May 2025 11:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3291,7 +3291,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9yjorf180w"
+          "Value": "7bh0rbvp75"
         },
         {
           "Name": "label",
@@ -3299,7 +3299,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4="
+          "Value": "sha256-o44rqn6iA70FG9DhCeNJ4ArceeDzhokW5hIOClagzxE="
         }
       ]
     },
@@ -3314,7 +3314,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "822"
+          "Value": "994"
         },
         {
           "Name": "Content-Type",
@@ -3322,11 +3322,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4=\""
+          "Value": "\"o44rqn6iA70FG9DhCeNJ4ArceeDzhokW5hIOClagzxE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 17:55:59 GMT"
+          "Value": "Tue, 13 May 2025 11:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3336,12 +3336,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4="
+          "Value": "sha256-o44rqn6iA70FG9DhCeNJ4ArceeDzhokW5hIOClagzxE="
         }
       ]
     },
     {
-      "Route": "js/OrderAllJS/Orders.a7ffjtsw40.js",
+      "Route": "js/OrderAllJS/Orders.6i6fyp52xk.js",
       "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3351,7 +3351,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1333"
+          "Value": "1602"
         },
         {
           "Name": "Content-Type",
@@ -3359,11 +3359,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4=\""
+          "Value": "\"rgRlbVbGIHE7ZNmTkR3NsVTXNrsFn14NRigavcKOihM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:27:52 GMT"
+          "Value": "Tue, 13 May 2025 11:08:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3373,7 +3373,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a7ffjtsw40"
+          "Value": "6i6fyp52xk"
         },
         {
           "Name": "label",
@@ -3381,7 +3381,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4="
+          "Value": "sha256-rgRlbVbGIHE7ZNmTkR3NsVTXNrsFn14NRigavcKOihM="
         }
       ]
     },
@@ -3396,7 +3396,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1333"
+          "Value": "1602"
         },
         {
           "Name": "Content-Type",
@@ -3404,11 +3404,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4=\""
+          "Value": "\"rgRlbVbGIHE7ZNmTkR3NsVTXNrsFn14NRigavcKOihM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:27:52 GMT"
+          "Value": "Tue, 13 May 2025 11:08:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3418,52 +3418,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4="
-        }
-      ]
-    },
-    {
-      "Route": "js/ProductManagingJS/ProductManaging.2t63a7fdky.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5515"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 21:35:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2t63a7fdky"
-        },
-        {
-          "Name": "label",
-          "Value": "js/ProductManagingJS/ProductManaging.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc="
+          "Value": "sha256-rgRlbVbGIHE7ZNmTkR3NsVTXNrsFn14NRigavcKOihM="
         }
       ]
     },
@@ -3478,7 +3433,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5515"
+          "Value": "6091"
         },
         {
           "Name": "Content-Type",
@@ -3486,11 +3441,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc=\""
+          "Value": "\"Su+gXSNYzCq6JHsh8SoHvzUk0VE7cUT/mRdvcx1Aex0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 21:35:09 GMT"
+          "Value": "Tue, 13 May 2025 11:20:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3500,13 +3455,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc="
+          "Value": "sha256-Su+gXSNYzCq6JHsh8SoHvzUk0VE7cUT/mRdvcx1Aex0="
         }
       ]
     },
     {
-      "Route": "js/site.7tv5vny2ev.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
+      "Route": "js/ProductManagingJS/ProductManaging.qbl3ykxpbs.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3515,7 +3470,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1730"
+          "Value": "6091"
         },
         {
           "Name": "Content-Type",
@@ -3523,11 +3478,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=\""
+          "Value": "\"Su+gXSNYzCq6JHsh8SoHvzUk0VE7cUT/mRdvcx1Aex0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 07:08:43 GMT"
+          "Value": "Tue, 13 May 2025 11:20:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3537,7 +3492,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7tv5vny2ev"
+          "Value": "qbl3ykxpbs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ProductManagingJS/ProductManaging.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Su+gXSNYzCq6JHsh8SoHvzUk0VE7cUT/mRdvcx1Aex0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.3tryh09njb.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8JqN2RmOh8hZg3plxjuORaQRoc5i48is8x2NGNkmAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:25:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tryh09njb"
         },
         {
           "Name": "label",
@@ -3545,7 +3545,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc="
+          "Value": "sha256-R8JqN2RmOh8hZg3plxjuORaQRoc5i48is8x2NGNkmAc="
         }
       ]
     },
@@ -3560,7 +3560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1730"
+          "Value": "1690"
         },
         {
           "Name": "Content-Type",
@@ -3568,11 +3568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=\""
+          "Value": "\"R8JqN2RmOh8hZg3plxjuORaQRoc5i48is8x2NGNkmAc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 07:08:43 GMT"
+          "Value": "Tue, 13 May 2025 11:25:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3582,12 +3582,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc="
+          "Value": "sha256-R8JqN2RmOh8hZg3plxjuORaQRoc5i48is8x2NGNkmAc="
         }
       ]
     },
     {
-      "Route": "js/UserJS/Login.hjuis0excs.js",
+      "Route": "js/UserJS/Login.d411ktjxmc.js",
       "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3597,7 +3597,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1034"
+          "Value": "1252"
         },
         {
           "Name": "Content-Type",
@@ -3605,11 +3605,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
+          "Value": "\"7VOAgT+Xj4A6znM/Ks42m8xLqVF0OeG43EVgwnTPXfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:23:08 GMT"
+          "Value": "Tue, 13 May 2025 12:07:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3619,7 +3619,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hjuis0excs"
+          "Value": "d411ktjxmc"
         },
         {
           "Name": "label",
@@ -3627,7 +3627,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
+          "Value": "sha256-7VOAgT+Xj4A6znM/Ks42m8xLqVF0OeG43EVgwnTPXfs="
         }
       ]
     },
@@ -3642,7 +3642,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1034"
+          "Value": "1252"
         },
         {
           "Name": "Content-Type",
@@ -3650,11 +3650,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
+          "Value": "\"7VOAgT+Xj4A6znM/Ks42m8xLqVF0OeG43EVgwnTPXfs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:23:08 GMT"
+          "Value": "Tue, 13 May 2025 12:07:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3664,52 +3664,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
-        }
-      ]
-    },
-    {
-      "Route": "js/UserJS/Logout.att20huv7v.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "934"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:43:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "att20huv7v"
-        },
-        {
-          "Name": "label",
-          "Value": "js/UserJS/Logout.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
+          "Value": "sha256-7VOAgT+Xj4A6znM/Ks42m8xLqVF0OeG43EVgwnTPXfs="
         }
       ]
     },
@@ -3724,7 +3679,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "934"
+          "Value": "1065"
         },
         {
           "Name": "Content-Type",
@@ -3732,11 +3687,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
+          "Value": "\"RpFwV4xbC7WmmegsXEKqb5kbzBNuo3nzNPG2BFf3988=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:43:07 GMT"
+          "Value": "Tue, 13 May 2025 12:10:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3746,7 +3701,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
+          "Value": "sha256-RpFwV4xbC7WmmegsXEKqb5kbzBNuo3nzNPG2BFf3988="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Logout.urlq6qdt5y.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RpFwV4xbC7WmmegsXEKqb5kbzBNuo3nzNPG2BFf3988=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:10:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "urlq6qdt5y"
+        },
+        {
+          "Name": "label",
+          "Value": "js/UserJS/Logout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RpFwV4xbC7WmmegsXEKqb5kbzBNuo3nzNPG2BFf3988="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Register.ijpfnryjib.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8i1b2Oc5u7bih8BsOrTsTpsOFIkOz908FRXUk/olpcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 12:13:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ijpfnryjib"
+        },
+        {
+          "Name": "label",
+          "Value": "js/UserJS/Register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8i1b2Oc5u7bih8BsOrTsTpsOFIkOz908FRXUk/olpcU="
         }
       ]
     },
@@ -3761,7 +3806,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1527"
+          "Value": "1836"
         },
         {
           "Name": "Content-Type",
@@ -3769,11 +3814,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM=\""
+          "Value": "\"8i1b2Oc5u7bih8BsOrTsTpsOFIkOz908FRXUk/olpcU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 11:00:38 GMT"
+          "Value": "Tue, 13 May 2025 12:13:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3783,52 +3828,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM="
-        }
-      ]
-    },
-    {
-      "Route": "js/UserJS/Register.sosu4i80y4.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1527"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 11:00:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sosu4i80y4"
-        },
-        {
-          "Name": "label",
-          "Value": "js/UserJS/Register.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM="
+          "Value": "sha256-8i1b2Oc5u7bih8BsOrTsTpsOFIkOz908FRXUk/olpcU="
         }
       ]
     },
@@ -8529,7 +8529,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:40:45 GMT"
+          "Value": "Tue, 13 May 2025 15:37:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8566,7 +8566,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:40:45 GMT"
+          "Value": "Tue, 13 May 2025 15:37:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8611,7 +8611,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:40:45 GMT"
+          "Value": "Tue, 13 May 2025 15:37:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8656,7 +8656,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:40:45 GMT"
+          "Value": "Tue, 13 May 2025 15:37:56 GMT"
         },
         {
           "Name": "Cache-Control",

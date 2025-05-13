@@ -4,54 +4,47 @@
 	ViewData["Title"] = "Sprava Objednavek";
 }
 
-
+<!-- Order manage section-->
 <section class="mt-5 py-5" data-aos="fade-up">
     <div class="container">
         <div class="row justify-content-center mb-12">
             <div class="col-xl-10 col-xl-12">
                 <div class="card shadow-sm mb-3 p-3 d-flex flex-column" style="min-height: 85vh; max-height: 80vh">
                     <div class="flex-grow-1 overflow-auto mb-5">
-                        <!-- Tabulka objednavek -->
+                        <!-- Orders Table -->
                         <table class="table">
                             <thead>
-                            <tr>
-                                <th scope="col">Číslo objednávky</th> <!-- Cislo objednavky -->
-                                <th scope="col">Jméno</th> <!-- Jmeno -->
-                                <th scope="col">Příjmení</th> <!-- Prijmeni -->
-                                <th scope="col">Adresa</th> <!-- Adresa -->
-                                <th scope="col">Stav</th> <!-- Stav objednavky -->
-                                <th scope="col"></th>
-                            </tr>
+                                <tr>
+                                    <th scope="col">Order Number</th> 
+                                    <th scope="col">First Name</th> 
+                                    <th scope="col">Last Name</th> 
+                                    <th scope="col">Address</th> 
+                                    <th scope="col">Status</th> 
+                                    <th scope="col"></th> 
+                                </tr>
                             </thead>
                             <tbody>
-                            <!-- Objednavka -->
-                                @foreach (var o in Model)
+                                <!-- Order -->
+                                @foreach (var o in Model) 
                                 {
+                                    var price = 0; 
 
-                                    var price = 0;
                                     <tr>
-                                        <td> @o.Id </td>
-										<td> @o.Jmeno</td>
-										<td> @o.Prijmeni </td>
-										<td> @o.Ulice @o.PopisneCislo/@o.OrientacniCislo, @o.Psc, @o.Mesto</td>
+                                        <td>@o.Id</td>
+                                        <td>@o.Jmeno</td> 
+                                        <td>@o.Prijmeni</td> 
+                                        <td>@o.Ulice @o.PopisneCislo/@o.OrientacniCislo, @o.Psc, @o.Mesto</td> 
                                         <td>
+                                            <!-- Dropdown for order status -->
                                             <select name="stav" class="form-select-sm update-status" aria-label="Select State" data-order-id="@o.Id">
                                                 @foreach (var stav in new[] { "Zpracovává se", "Odesláno", "Doručeno", "Zrušeno" })
                                                 {
-                                                    var text = stav switch
-                                                    {
-                                                        "Zpracovává se" => "Zpracovává se",
-                                                        "Odesláno" => "Odesláno",
-                                                        "Doručeno" => "Doručeno",
-                                                        "Zrušeno" => "Zrušeno",
-                                                        _ => stav
-                                                    };
-                                                    <option value="@stav" selected="@(o.Stav == stav ? "selected" : null)">@text</option>
+                                                    <option value="@stav" selected="@(o.Stav == stav ? "selected" : null)">@stav</option>
                                                 }
                                             </select>
                                         </td>
                                         <td>
-                                            <!-- Detaily btn -->
+                                            <!-- Toggle button to expand order details -->
                                             <a href="#" class="text-warning fw-bold toggle-icon"
                                                data-bs-toggle="collapse"
                                                data-bs-target="#collapse-@o.Id"
@@ -62,17 +55,15 @@
                                             </a>
                                         </td>
                                     </tr>
-                                    <!-- Produkty objednavky -->
+                                    <!-- Order Products -->
                                     <tr class="collapse" id="collapse-@o.Id">
                                         <td colspan="6">
                                             <div class="card card-body">
-                                                <h6>Produkty objednávky:</h6>
+                                                <h6>Order Products:</h6> 
                                                 <table class="table">
-                                                    
                                                     <tbody>
-                                                        @foreach (var p in o.OrderItems)
+                                                        @foreach (var p in o.OrderItems) 
                                                         {
-
                                                             price += p.Pocet * p.Product.Cena;
 
                                                             <tr>
@@ -82,23 +73,25 @@
                                                                          class="bd-placeholder-img card-img-top"
                                                                          style="width: auto; height: 150px; object-fit: cover;">
                                                                 </td>
-                                                                <!-- Nazev produktu -->
+                                                                
                                                                 <td>
                                                                     <h5 class="card-title mt-5">@p.Product.Nazev</h5>
                                                                 </td>
-                                                                <!-- Mnozstvi produktu -->
+                                                                
                                                                 <td>
                                                                     <p class="card-text fw-bold mt-5">@p.Pocet x @p.Product.Cena Kč</p>
                                                                 </td>
-                                                                <!-- Total cena produktu -->
+                                                                
                                                                 <td>
-                                                                    <p class="card-text text-success fw-bold mt-5 text-end" style="padding-right: 20px;"> @(p.Pocet * p.Product.Cena) Kč</p>
+                                                                    <p class="card-text text-success fw-bold mt-5 text-end" style="padding-right: 20px;">@(p.Pocet * p.Product.Cena) Kč</p>
                                                                 </td>
                                                             </tr>
                                                         }
                                                         <tr>
                                                             <td colspan="3"></td>
-                                                            <td class="text-success fw-bold text-end me-5" style="font-size: 1.2em; padding-right: 20px;">Celkem: @price Kč</td>
+                                                            <td class="text-success fw-bold text-end me-5" style="font-size: 1.2em; padding-right: 20px;">
+                                                                Total: @price Kč 
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

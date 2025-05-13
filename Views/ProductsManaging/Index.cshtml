@@ -3,45 +3,44 @@
     ViewData["Title"] = "Sprava Produktu";
 }
 
+<!-- include modals -->
 @Html.Partial("ProductAddModal")
 @Html.Partial("ProductEditModal")
 
 
-<!-- Produkty -->
+<!-- Products manage Section -->
 <section class="mt-5 py-5" data-aos="fade-up">
     <div class="container">
         <div class="row justify-content-center mb-12">
             <div class="col-xl-10 col-xl-12">
                 <div class="card shadow-sm mb-3 p-3" style="min-height: 85vh;">
-                    <!-- Pridani produktu btn -->
-                    
+                    <!-- Add Product Button -->
                     <div class="py-3 container text-end">
-                        <input type="button" data-bs-toggle="modal" class="btn btn-warning mb-4 btn-lg" value="Přidat Produkt" data-bs-target="#addproductModal">
+                        <input type="button" data-bs-toggle="modal" class="btn btn-warning mb-4 btn-lg" value="Add Product" data-bs-target="#addproductModal">
                     </div>
                     
-                    <!-- Tabulka produktu -->
+                    <!-- Product Table -->
                     <table class="table table-hover">
                         <thead>
-                            <tr id="sprava_produktu_tab_tr_0">
-                                <th scope="col">ID produktu</th> <!-- Id produktu -->
-                                <th scope="col">Jméno</th> <!-- jmeno -->
-                                <th scope="col">Počet</th> <!-- pocet -->
-                                <th scope="col">Cena</th> <!-- Cena -->
+                            <tr id="product_management_table_row_0">
+                                <th scope="col">Product ID</th> 
+                                <th scope="col">Name</th> 
+                                <th scope="col">Quantity</th> 
+                                <th scope="col">Price</th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                             </tr>
                         </thead>
-                        <!-- Produkty -->
+                        <!-- Products List -->
                         <tbody>
                             @foreach (var p in Model)
                             {
                                 <tr class="align-middle">
-                                    <th scope="row">@p.Id</th> <!-- ID produktu -->
-                                    <td>@p.Nazev</td> <!-- Nazev produktu -->
-                                    <td>@p.Mnozstvi</td> <!-- Mnozstvi produktu -->
-                                    <td>@p.Cena Kč</td> <!-- Cena produktu -->
-                                    <!-- Edit btn -->
-                                    
+                                    <th scope="row">@p.Id</th>
+                                    <td>@p.Nazev</td>
+                                    <td>@p.Mnozstvi</td>
+                                    <td>@p.Cena Kč</td>
+                                    <!-- Edit Button -->
                                     <td>
                                         <button class="btn btn-link text-warning fw-bold edit-product-btn"
                                                 data-bs-toggle="modal"
@@ -51,7 +50,7 @@
                                         </button>
                                     </td>
                                     
-                                    <!-- Delete btn -->
+                                    <!-- Delete Button -->
                                     <td>
                                         <button type="button" class="btn btn-link text-danger fw-bold delete-product-btn" data-product-id="@p.Id">
                                             <i class="bi bi-trash-fill"></i>

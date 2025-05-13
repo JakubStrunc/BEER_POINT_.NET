@@ -1,22 +1,24 @@
-﻿$(document).on('click', '#openSendModal', function () {
+﻿// get the previous addresses
+$(document).on('click', '#openSendModal', function () {
     const inputs = $('.address-input');
-    const newAddressCheckbox = $('#newAddressCheckbox');
-    const hiddenInput = $('#existingAddressId');
-    const container = $('#recent-addresses');
+    const newAddressCheckbox = $('#newAddressCheckbox'); 
+    const hiddenInput = $('#existingAddressId'); 
+    const container = $('#recent-addresses'); 
 
-    hiddenInput.val('');
-    container.empty();
-    inputs.prop('disabled', false).removeClass('bg-light');
+    container.empty(); 
+    inputs.prop('disabled', false).removeClass('bg-light'); 
     newAddressCheckbox.prop('checked', true);
 
+    // fetch recent addresses via AJAX
     $.ajax({
-        url: "/Cart/GetRecentAddresses",
+        url: "/Cart/GetRecentAddresses", // fetch  address
         type: "GET",
         success: function (addresses) {
-            if (!Array.isArray(addresses) || addresses.length === 0) return;
+            if (!Array.isArray(addresses) || addresses.length === 0) return; // exit if no addresses found
 
+            // create a checkbox for each address
             addresses.forEach(a => {
-                const checkbox = $(`
+                const checkbox = $(`  
                     <label class="list-group-item">
                         <input class="form-check-input me-1 old-address-checkbox" type="checkbox" value="${a.id}">
                         ${a.firstName} ${a.lastName}, ${a.street} ${a.houseNumber}/${a.orientationNumber}, ${a.postalCode} ${a.city}
@@ -25,11 +27,11 @@
                 container.append(checkbox);
             });
 
-            // Při kliknutí na starou adresu:
+            // handle address selection from the list
             container.on('change', '.old-address-checkbox', function () {
-                $('.old-address-checkbox').not(this).prop('checked', false); // jen jeden checkbox povolen
+                $('.old-address-checkbox').not(this).prop('checked', false); 
                 if (this.checked) {
-                    hiddenInput.val($(this).val());
+                    hiddenInput.val($(this).val()); 
                     newAddressCheckbox.prop('checked', false);
                     inputs.prop('disabled', true).addClass('bg-light');
                 } else {
@@ -40,50 +42,55 @@
     });
 });
 
-// Přepínání nová adresa
+// toggle between creating a new address or selecting an old one
 $(document).on('change', '#newAddressCheckbox', function () {
-    const inputs = $('.address-input');
-    const isChecked = this.checked;
+    const inputs = $('.address-input'); 
+    const isChecked = this.checked; 
+
+    // disable the old address checkbox
     $('.old-address-checkbox').prop('checked', false);
-    $('#existingAddressId').val('');
+    $('#existingAddressId').val(''); 
 
     if (isChecked) {
-        inputs.prop('disabled', false).removeClass('bg-light');
+        inputs.prop('disabled', false).removeClass('bg-light'); 
     } else {
-        inputs.prop('disabled', true).addClass('bg-light');
+        inputs.prop('disabled', true).addClass('bg-light'); 
     }
 });
 
+// handle order submission
 $(document).on('click', '#odeslat', function (event) {
+    event.preventDefault(); 
 
-    console.log("Clickek");
-    event.preventDefault();
-    $('.text-danger').remove(); // pokud chceš odstranit případné chybové zprávy
+    $('.text-danger').remove(); 
 
-    const existingAddressId = $('#existingAddressId').val();
-    const isUsingSaved = existingAddressId !== "";
+    const existingAddressId = $('#existingAddressId').val(); 
+    const isUsingSaved = existingAddressId !== ""; 
 
+    // submit order data via AJAX
     $.ajax({
-        url: '/Cart/SubmitOrder',
+        url: '/Cart/SubmitOrder', // URL to submit the order
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({
             existingAddressId: isUsingSaved ? parseInt(existingAddressId) : null,
             firstName: $('#firstName').val(),
-            lastName: $('#lastName').val(),
+            lastName: $('#lastName').val(), 
             street: $('#ulice').val(),
-            houseNumber: parseInt($('#cislopopisne').val()),
+            houseNumber: parseInt($('#cislopopisne').val()), 
             orientationNumber: parseInt($('#orijentacnicislo').val()),
             postalCode: parseInt($('#psc').val()),
             city: $('#mesto').val()
         }),
         success: function (response) {
             if (response.success) {
+                // if order is successfully submitted, show success alert
                 sessionStorage.setItem("showToast", "true");
                 sessionStorage.setItem("toastText", "Objednávka byla úspěšně odeslána!");
                 sessionStorage.setItem("toastColor", "#28a745");
-                window.location.href = '/';
+                window.location.href = '/'; 
             } else if (response.errors) {
+                // show validation errors 
                 for (const field in response.errors) {
                     showToast(response.errors[field], "#fd7e14");
                 }
@@ -92,7 +99,8 @@ $(document).on('click', '#odeslat', function (event) {
             }
         },
         error: function (xhr) {
-            showToast("Chyba při odesílání: " + xhr.responseText, "#dc3545");
+            // AJAX fails
+            showToast("Chyba při odesílání: " + xhr.responseText, "#dc3545"); 
         }
     });
 });

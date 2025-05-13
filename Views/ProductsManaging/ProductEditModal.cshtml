@@ -1,4 +1,4 @@
-﻿<!-- Edit produktu Modal -->
+﻿<!-- Edit Product Modal -->
 <div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
@@ -7,41 +7,39 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="container row g-3 mt-3 mb-3">
-                <!-- Jmeno produktu txt pole -->
+                <!-- Product Name input field -->
                 <div class="col-sm-6">
-                    <label for="productName" class="form-label">Jméno</label>
-                    <label for="editproductName"></label><input type="text" class="form-control" id="editproductName" name="nazev" placeholder="Zadejte jméno produktu">
+                    <label for="productName" class="form-label">Name</label>
+                    <label for="editproductName"></label><input type="text" class="form-control" id="editproductName" name="nazev" placeholder="Enter product name">
                 </div>
-                <!-- Popis produktu txt pole -->
+                <!-- Product Description input field -->
                 <div class="col-12">
-                    <label for="productDescription" class="form-label">Popis produktu</label>
-                    <label for="editproductDescription"></label><textarea class="form-control" name="popis" id="editproductDescription" rows="5" placeholder="Zadejte popis produktu"></textarea>
+                    <label for="productDescription" class="form-label">Product Description</label>
+                    <label for="editproductDescription"></label><textarea class="form-control" name="popis" id="editproductDescription" rows="5" placeholder="Enter product description"></textarea>
                 </div>
-                <!-- Cena produktu txt pole -->
+                <!-- Product Price input field -->
                 <div class="col-sm-6">
-                    <label for="productPrice" class="form-label">Cena</label>
-                    <label for="editproductPrice"></label><input type="number" class="form-control" name="cena" id="editproductPrice" min="0" placeholder="Zadejte cenu">
+                    <label for="productPrice" class="form-label">Price</label>
+                    <label for="editproductPrice"></label><input type="number" class="form-control" name="cena" id="editproductPrice" min="0" placeholder="Enter price">
                 </div>
-                <!-- Mnozstvi produktu txt pole -->
+                <!-- Product Quantity input field -->
                 <div class="col-md-4">
-                    <label for="productStock" class="form-label">Množství</label>
-                    <label for="editproductStock"></label><input type="number" class="form-control" name="mnozstvi" id="editproductStock" min="0" placeholder="Zadejte množství">
+                    <label for="productStock" class="form-label">Quantity</label>
+                    <label for="editproductStock"></label><input type="number" class="form-control" name="mnozstvi" id="editproductStock" min="0" placeholder="Enter quantity">
                 </div>
 
-                
-                <!-- Fotka produktu upload -->
+                <!-- Product Image upload -->
                 <div class="col-md-5">
-
-                    <label for="productImage" class="form-label">Fotka produktu</label>
+                    <label for="productImage" class="form-label">Product Image</label>
                     <div class="col-md-5" id="existingImageWrapper"></div>
                     <input type="file" class="form-control" name="fileToUpload" id="editfileToUpload">
                 </div>
             </div>
-            
-            <!-- Footer btns -->
+
+            <!-- Footer buttons -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" id="saveProductChanges" class="btn btn-warning" data-product-id="">Uložit</button>
+                <button type="button" id="saveProductChanges" class="btn btn-warning" data-product-id="">Save</button> 
             </div>
         </div>
     </div>

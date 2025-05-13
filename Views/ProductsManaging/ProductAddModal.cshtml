@@ -1,42 +1,42 @@
-﻿<!-- Pridani produktu Modal -->
+﻿<!-- Add Product Modal -->
 <div class="modal fade" id="addproductModal" tabindex="-1" aria-labelledby="sendModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Přidat Produkt</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Product</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="container row g-3 mt-3 mb-3">
-                <!-- Jmeno produktu txt pole -->
+                <!-- Product Name input field -->
                 <div class="col-sm-6">
-                    <label for="productName" class="form-label">Jméno</label>
-                    <input type="text" class="form-control" id="productName" name="nazev" placeholder="Zadejte jméno produktu">
+                    <label for="productName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="productName" name="nazev" placeholder="Enter product name">
                 </div>
-                <!-- Popis txt pole -->
+                <!-- Product Description input field -->
                 <div class="col-12">
-                    <label for="productDescription" class="form-label">Popis produktu</label>
-                    <textarea class="form-control" name="popis" id="productDescription" rows="5" placeholder="Zadejte popis produktu"></textarea>
+                    <label for="productDescription" class="form-label">Product Description</label>
+                    <textarea class="form-control" name="popis" id="productDescription" rows="5" placeholder="Enter product description"></textarea>
                 </div>
-                <!-- Cena txt pole -->
+                <!-- Product Price input field -->
                 <div class="col-sm-6">
-                    <label for="productPrice" class="form-label">Cena</label>
-                    <input type="number" class="form-control" name="cena" id="productPrice" min="0" placeholder="Zadejte cenu">
+                    <label for="productPrice" class="form-label">Price</label>
+                    <input type="number" class="form-control" name="cena" id="productPrice" min="0" placeholder="Enter price">
                 </div>
-                <!-- Pocet na sklade txt pole -->
+                <!-- Product Stock input field -->
                 <div class="col-md-4">
-                    <label for="productStock" class="form-label">Množství</label>
-                    <input type="number" class="form-control" name="mnozstvi" id="productStock" min="0" placeholder="Zadejte množství">
+                    <label for="productStock" class="form-label">Quantity</label>
+                    <input type="number" class="form-control" name="mnozstvi" id="productStock" min="0" placeholder="Enter quantity">
                 </div>
-                <!-- Obrazek upload -->
+                <!-- Product Image upload -->
                 <div class="col-md-5">
-                    <label for="productImage" class="form-label">Fotka produktu</label>
+                    <label for="productImage" class="form-label">Product Image</label>
                     <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
                 </div>
             </div>
-            <!-- Footer btns -->
+            <!-- Footer buttons -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <input type="button" id="pridatProdukt" class="btn btn-warning" value="Přidat produkt">
+                <input type="button" id="pridatProdukt" class="btn btn-warning" value="Add Product"> 
             </div>
         </div>
     </div>

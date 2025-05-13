@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PNET_semestralka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f1089386fe8b8d5f5899ae18b20f497ff8e44ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93aaab31147e8fdeee2319c8866a72f9b689c1fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("PNET_semestralka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PNET_semestralka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

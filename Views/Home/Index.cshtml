@@ -5,6 +5,7 @@
     var role = Context.Session.GetString("Role");
 }
 
+<!-- include modals -->
 @Html.Partial("LoginModal")
 @Html.Partial("RegisterModal")
 
@@ -12,20 +13,21 @@
     <div class="text-center">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
-                <!-- Produkty -->
-                @foreach (var product in Model)
+                <!-- Display products -->
+                @foreach (var product in Model) // Loop through each product in the model
                 {
                     <div class="col" data-aos="fade-up">
-                        <div class="card d-flex flex-column" style="min-height: 68vh; max-height: 68vh;padding: 1rem;">
+                        <!-- Add animation on scroll -->
+                        <div class="card d-flex flex-column" style="min-height: 68vh; max-height: 75vh; padding: 1rem;">
                             <div class="card-body text-center">
-                                <!-- Obraz produktu -->
+                                <!-- Product Image -->
                                 <div>
                                     <img src="@Url.Content($"~/img/produkty/{product.Photo}")"
                                          alt="@product.Nazev"
                                          class="bd-placeholder-img card-img-top"
                                          style="width: auto; height: 200px; object-fit: cover;">
                                 </div>
-                                <!-- Jmeno produktu -->
+                                <!-- Product Name -->
                                 <div class="card-body">
                                     <h5 id="jmeno_produktu@product.Id_produkt" class="card-title text-start">
                                         @product.Nazev
@@ -36,20 +38,21 @@
                                 </div>
                             </div>
                             <div class="align-bottom text-end">
-                                <!-- Cena produktu -->
+                                <!-- Product Availability -->
                                 <p id="amount@product.Id_produkt" class="cart-text" style="font-size: 1.2em;">
                                     Na skladě: @product.Mnozstvi
                                 </p>
+                                <!-- Product Price -->
                                 <p id="price@product.Id_produkt" class="cart-text" style="font-size: 1.5em; color: green;">
                                     @product.Cena Kč
                                 </p>
 
-                                <!-- Pridat do kosiku btn -->
-                                @if(role == "Customer"){
+                                <!-- Add to Cart Button -->
+                                @if (role == "Customer")
+                                {
                                     <input type="button" value="Přidat do košíku"
                                            class="btn btn-warning add-to-cart-btn" data-product-id="@product.Id">
                                 }
-
                             </div>
                         </div>
                     </div>

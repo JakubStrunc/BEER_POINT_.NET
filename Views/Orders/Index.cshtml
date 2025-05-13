@@ -3,101 +3,107 @@
 	ViewData["Title"] = "Objednavky";
 }
 
-
+<!-- Section Order -->
 <section class="py-5 mt-5" data-aos="fade-up">
-	<div class="container">
-		<div class="row justify-content-center mb-12">
-			<div class="card shadow-sm mb-3 p-3 d-flex flex-column" style="min-height: 88vh">
-				@if (Model.Any())
-				{
-					<div class="flex-grow-1 mb-5">
-						<table class="table">
-							<thead>
-								<tr>
-									<th scope="col">Číslo objednávky</th>
-									<th scope="col">Jméno</th>
-									<th scope="col">Přímení</th>
-									<th scope="col">Adresa</th>
-									<th scope="col">Stav</th>
-									<th scope="col"></th>
-								</tr>
-							</thead>
-							<tbody>
-								@foreach (var o in Model)
-								{
-									var price = 0;
+    <div class="container">
+        <div class="row justify-content-center mb-12">
+            <div class="card shadow-sm mb-3 p-3 d-flex flex-column" style="min-height: 88vh">
+                @if (Model.Any())
+                {
 
-									<tr>
-										<th> @o.Id </th>
-										<th> @o.Jmeno</th>
-										<th> @o.Prijmeni </th>
-										<th> @o.Ulice @o.PopisneCislo/@o.OrientacniCislo, @o.Psc, @o.Mesto</th>
-										<th> @o.Stav</th>
-										<td>
-											<a href="#" class="text-warning fw-bold toggle-icon"
-											   data-bs-toggle="collapse"
-											   data-bs-target="#collapse-@o.Id"
-											   aria-expanded="false"
-											   style="font-size: 24px;"
-											   onclick="toggleIcon(@o.Id)">
-												<i class="bi bi-caret-down-fill" id="icon-@o.Id"></i>
-											</a>
-										</td>
-									</tr>
-									<tr class="collapse" id="collapse-@o.Id">
-										<td colspan="6">
-											<div class="card card-body">
-												<h6>Produkty objednávky:</h6>
-												<table class="table">
-													<tbody>
-														@foreach (var p in o.OrderItems)
-														{
+                    <!-- Table of orders-->
+                    <div class="flex-grow-1 mb-5">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Číslo objednávky</th> 
+                                    <th scope="col">Jméno</th>
+                                    <th scope="col">Přímení</th> 
+                                    <th scope="col">Adresa</th> 
+                                    <th scope="col">Stav</th> 
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
 
-															price += p.Pocet * p.Product.Cena;
+                            <!-- Orders -->
+                            <tbody>
+                                @foreach (var o in Model) // Loop through each order
+                                {
+                                    var price = 0;
 
-															<tr>
-																<td>
-																	<img src="@Url.Content($"~/img/produkty/{p.Product.Photo}")"
-																		 alt="@p.Product.Nazev"
-																		 class="bd-placeholder-img card-img-top"
-																		 style="width: auto; height: 150px; object-fit: cover;">
-																</td>
-																<!-- Nazev produktu -->
-																<td>
-																	<h5 class="card-title mt-5">@p.Product.Nazev</h5>
-																</td>
-																<!-- Mnozstvi produktu -->
-																<td>
-																	<p class="card-text fw-bold mt-5">@p.Pocet x @p.Product.Cena Kč</p>
-																</td>
-																<!-- Total cena produktu -->
-																<td>
-																	<p class="card-text text-success fw-bold mt-5 text-end" style="padding-right: 20px;"> @(p.Pocet * p.Product.Cena) Kč</p>
-																</td>
-															</tr>
-														}
-														<tr>
-															<td colspan="3"></td>
-															<td class="text-success fw-bold text-end me-5" style="font-size: 1.2em; padding-right: 20px;">Celkem: @price Kč</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</td>
-									</tr>
-								}
-							</tbody>
-						</table>
-					</div>
-				}
-				else
-				{
-					<div class="text-center">
-						<h3>HMM...</h3>
-						<p>Vypadá to, že jste si nic neobjednal zatím.</p>
-					</div>
-				}
-			</div>
-		</div>
-	</div>
+                                    <tr>
+                                        <th>@o.Id</th> 
+                                        <th>@o.Jmeno</th>
+                                        <th>@o.Prijmeni</th>
+                                        <th>@o.Ulice @o.PopisneCislo/@o.OrientacniCislo, @o.Psc, @o.Mesto</th>
+                                        <th>@o.Stav</th>
+                                        <td>
+                                            <a href="#" class="text-warning fw-bold toggle-icon" data-bs-toggle="collapse"
+                                               data-bs-target="#collapse-@o.Id" aria-expanded="false"
+                                               style="font-size: 24px;" onclick="toggleIcon(@o.Id)">
+                                                <i class="bi bi-caret-down-fill" id="icon-@o.Id"></i> 
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="collapse" id="collapse-@o.Id">
+                                        <!-- Order's products -->
+                                        <td colspan="6">
+                                            <div class="card card-body">
+                                                <h6>Produkty objednávky:</h6>
+                                                <table class="table">
+                                                    <tbody>
+                                                        @foreach (var p in o.OrderItems)
+                                                        {
+                                                            price += p.Pocet * p.Product.Cena;
+
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="@Url.Content($"~/img/produkty/{p.Product.Photo}")"
+                                                                         alt="@p.Product.Nazev"
+                                                                         class="bd-placeholder-img card-img-top"
+                                                                         style="width: auto; height: 150px; object-fit: cover;">
+                                                                </td>
+                                                                <!-- Product Name -->
+                                                                <td>
+                                                                    <h5 class="card-title mt-5">@p.Product.Nazev</h5>
+                                                                </td>
+                                                                <!-- Product Quantity and Price -->
+                                                                <td>
+                                                                    <p class="card-text fw-bold mt-5">@p.Pocet x @p.Product.Cena Kč</p>
+                                                                </td>
+                                                                <!-- Product Total Price -->
+                                                                <td>
+                                                                    <p class="card-text text-success fw-bold mt-5 text-end" style="padding-right: 20px;">
+                                                                        @(p.Pocet * p.Product.Cena) Kč
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        }
+                                                        <tr>
+                                                            <td colspan="3"></td>
+                                                            <td class="text-success fw-bold text-end me-5" style="font-size: 1.2em; padding-right: 20px;">
+                                                                Celkem: @price Kč <!-- Total price for the order -->
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <!-- Message if no orders  -->
+                    <div class="text-center">
+                        <h3>HMM...</h3>
+                        <p>Vypadá to, že jste si nic neobjednal zatím.</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
 </section>

@@ -21,7 +21,7 @@ namespace PNET_semestralka.CommandDesignPatern
 		/// <summary>
 		/// rxecutes the command to remove the product from the customer's cart
 		/// </summary>
-		/// <exception cref="Exception">thrown when the cart is not found or the product is not in the cart.</exception>
+		/// <exception cref="Exception">thrown when the cart is not found or the product is not in the cart</exception>
 		public void Execute()
 		{
 			var cart = _database.GetCartForCustomer(_customerId);
@@ -31,12 +31,6 @@ namespace PNET_semestralka.CommandDesignPatern
 			if (item == null) throw new Exception("Produkt není v košíku");
 
 			cart.OrderItems.Remove(item);
-
-			//// Pokud je košík prázdný, smažeme ho úplně
-			//if (!cart.OrderItems.Any())
-			//{
-			//	_database.RemoveProductFromCart(cart);
-			//}
 
 			_database.Save();
 		}
