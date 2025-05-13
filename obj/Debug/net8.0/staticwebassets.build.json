@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ByZbo/qJJSsnde+Q0XFXDaMisCuueEuTpWqQBLiexdY=",
+  "Hash": "YAUoftATBN+kuyX95FUpeLrp9m7//L/vaU6Z/2Zl4nU=",
   "Source": "PNET_semestralka",
   "BasePath": "_content/PNET_semestralka",
   "Mode": "Default",
@@ -395,12 +395,12 @@
       "OriginalItemSpec": "wwwroot\\js\\AlertHandler.js"
     },
     {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
       "SourceId": "PNET_semestralka",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
       "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Cart#[.{fingerprint}]?.js",
+      "RelativePath": "js/CartJS/Cart#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,15 +413,15 @@
       "Integrity": "YYMU0AT3d53HnNJ/zV68LXsW88wfrwU0++wYUdBl/ns=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Cart.js"
+      "OriginalItemSpec": "wwwroot\\js\\CartJS\\Cart.js"
     },
     {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
       "SourceId": "PNET_semestralka",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
       "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/CartSend#[.{fingerprint}]?.js",
+      "RelativePath": "js/CartJS/CartSend#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -434,15 +434,15 @@
       "Integrity": "N/YGaTuyy0w3OKyRqMOIyjIUQ7k+mf1tQVd0mWrXhW8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\CartSend.js"
+      "OriginalItemSpec": "wwwroot\\js\\CartJS\\CartSend.js"
     },
     {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
       "SourceId": "PNET_semestralka",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
       "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Home#[.{fingerprint}]?.js",
+      "RelativePath": "js/HomeJS/Home#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -455,57 +455,15 @@
       "Integrity": "ASJm4xmmrGQZxJTvJLF1mcks+AiM0QjLo4spNrwYjU4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Home.js"
+      "OriginalItemSpec": "wwwroot\\js\\HomeJS\\Home.js"
     },
     {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
       "SourceId": "PNET_semestralka",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
       "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Login#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hjuis0excs",
-      "Integrity": "49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Login.js"
-    },
-    {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js",
-      "SourceId": "PNET_semestralka",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
-      "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Logout#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "att20huv7v",
-      "Integrity": "bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Logout.js"
-    },
-    {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
-      "SourceId": "PNET_semestralka",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
-      "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Orders#[.{fingerprint}]?.js",
+      "RelativePath": "js/OrderAllJS/Orders#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -518,15 +476,15 @@
       "Integrity": "tkEIy3+/xm54+S2IdCbrur0oQNt0uqu5x4tHe1NPkY4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Orders.js"
+      "OriginalItemSpec": "wwwroot\\js\\OrderAllJS\\Orders.js"
     },
     {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
       "SourceId": "PNET_semestralka",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
       "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/ProductManaging#[.{fingerprint}]?.js",
+      "RelativePath": "js/ProductManagingJS/ProductManaging#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -539,28 +497,7 @@
       "Integrity": "ysTbRQx/K9ON8tngeQWpxBS/GIrE/VyrLPCAKBjHwjc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ProductManaging.js"
-    },
-    {
-      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
-      "SourceId": "PNET_semestralka",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
-      "BasePath": "_content/PNET_semestralka",
-      "RelativePath": "js/Register#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sosu4i80y4",
-      "Integrity": "RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Register.js"
+      "OriginalItemSpec": "wwwroot\\js\\ProductManagingJS\\ProductManaging.js"
     },
     {
       "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
@@ -577,11 +514,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "7tv5vny2ev",
+      "Integrity": "tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+      "SourceId": "PNET_semestralka",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
+      "BasePath": "_content/PNET_semestralka",
+      "RelativePath": "js/UserJS/Login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hjuis0excs",
+      "Integrity": "49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserJS\\Login.js"
+    },
+    {
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+      "SourceId": "PNET_semestralka",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
+      "BasePath": "_content/PNET_semestralka",
+      "RelativePath": "js/UserJS/Logout#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "att20huv7v",
+      "Integrity": "bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserJS\\Logout.js"
+    },
+    {
+      "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
+      "SourceId": "PNET_semestralka",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\",
+      "BasePath": "_content/PNET_semestralka",
+      "RelativePath": "js/UserJS/Register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sosu4i80y4",
+      "Integrity": "RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserJS\\Register.js"
     },
     {
       "Identity": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -3095,8 +3095,8 @@
       ]
     },
     {
-      "Route": "js/Cart.7uil261geq.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
+      "Route": "js/CartJS/Cart.7uil261geq.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3131,7 +3131,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/Cart.js"
+          "Value": "js/CartJS/Cart.js"
         },
         {
           "Name": "integrity",
@@ -3140,8 +3140,8 @@
       ]
     },
     {
-      "Route": "js/Cart.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
+      "Route": "js/CartJS/Cart.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3177,8 +3177,8 @@
       ]
     },
     {
-      "Route": "js/CartSend.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
+      "Route": "js/CartJS/CartSend.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3214,8 +3214,8 @@
       ]
     },
     {
-      "Route": "js/CartSend.n8st6bzzpy.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
+      "Route": "js/CartJS/CartSend.n8st6bzzpy.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3250,7 +3250,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/CartSend.js"
+          "Value": "js/CartJS/CartSend.js"
         },
         {
           "Name": "integrity",
@@ -3259,8 +3259,8 @@
       ]
     },
     {
-      "Route": "js/Home.9yjorf180w.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
+      "Route": "js/HomeJS/Home.9yjorf180w.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3295,7 +3295,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/Home.js"
+          "Value": "js/HomeJS/Home.js"
         },
         {
           "Name": "integrity",
@@ -3304,8 +3304,8 @@
       ]
     },
     {
-      "Route": "js/Home.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
+      "Route": "js/HomeJS/Home.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3341,172 +3341,8 @@
       ]
     },
     {
-      "Route": "js/Login.hjuis0excs.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1034"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:23:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hjuis0excs"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Login.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
-        }
-      ]
-    },
-    {
-      "Route": "js/Login.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1034"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:23:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
-        }
-      ]
-    },
-    {
-      "Route": "js/Logout.att20huv7v.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "934"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:43:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "att20huv7v"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Logout.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
-        }
-      ]
-    },
-    {
-      "Route": "js/Logout.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "934"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 15:43:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
-        }
-      ]
-    },
-    {
-      "Route": "js/Orders.a7ffjtsw40.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
+      "Route": "js/OrderAllJS/Orders.a7ffjtsw40.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3541,7 +3377,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/Orders.js"
+          "Value": "js/OrderAllJS/Orders.js"
         },
         {
           "Name": "integrity",
@@ -3550,8 +3386,8 @@
       ]
     },
     {
-      "Route": "js/Orders.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
+      "Route": "js/OrderAllJS/Orders.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3587,8 +3423,8 @@
       ]
     },
     {
-      "Route": "js/ProductManaging.2t63a7fdky.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
+      "Route": "js/ProductManagingJS/ProductManaging.2t63a7fdky.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3623,7 +3459,7 @@
         },
         {
           "Name": "label",
-          "Value": "js/ProductManaging.js"
+          "Value": "js/ProductManagingJS/ProductManaging.js"
         },
         {
           "Name": "integrity",
@@ -3632,8 +3468,8 @@
       ]
     },
     {
-      "Route": "js/ProductManaging.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
+      "Route": "js/ProductManagingJS/ProductManaging.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3669,8 +3505,254 @@
       ]
     },
     {
-      "Route": "js/Register.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
+      "Route": "js/site.7tv5vny2ev.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 07:08:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7tv5vny2ev"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 07:08:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfQFn2p0ZRuN9M0OG43cpeG1jDpoSXxk8yTxkLX4uBc="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Login.hjuis0excs.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:23:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjuis0excs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/UserJS/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Login.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:23:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-49hfHAncB6//XMNTiywpOjn+U/rujE1fF/nMNJN51E0="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Logout.att20huv7v.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "att20huv7v"
+        },
+        {
+          "Name": "label",
+          "Value": "js/UserJS/Logout.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Logout.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:43:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bodnzNgYcDs333qDxg0TmFVxCj8QpgUQ90LEY3UAZdI="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserJS/Register.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3706,8 +3788,8 @@
       ]
     },
     {
-      "Route": "js/Register.sosu4i80y4.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
+      "Route": "js/UserJS/Register.sosu4i80y4.js",
+      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3742,93 +3824,11 @@
         },
         {
           "Name": "label",
-          "Value": "js/Register.js"
+          "Value": "js/UserJS/Register.js"
         },
         {
           "Name": "integrity",
           "Value": "sha256-RIfpAso36vLdxteqwPZ5nVgxDDftr7gEXH0aUDsBEBM="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 08:42:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 08:42:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
         }
       ]
     },

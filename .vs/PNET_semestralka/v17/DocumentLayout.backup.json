@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\userjs\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\userjs\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\logout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\userjs\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\userjs\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\homejs\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\homejs\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\alerthandler.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -35,16 +39,16 @@
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\orderalljs\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\orderalljs\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\controllers\\ordersmanagingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:controllers\\ordersmanagingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\userjs\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\userjs\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\controllers\\productsmanagingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,8 +63,8 @@
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\cartjs\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\cartjs\\cart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\factorydesignpatern\\standardorderitemcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,12 +167,12 @@
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\cartsend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\cartsend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\cartjs\\cartsend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\cartjs\\cartsend.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\productmanaging.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\productmanaging.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\wwwroot\\js\\productmanagingjs\\productmanaging.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:wwwroot\\js\\productmanagingjs\\productmanaging.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -184,10 +188,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\productsmanaging\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\productsmanaging\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C064ACBC-DBCD-470A-9653-BF445777F8A6}|PNET_semestralka.csproj|c:\\users\\kubae\\onedrive\\dokumenty\\pnet_semestralka\\commanddesignpatern\\removeproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -209,7 +209,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -217,72 +217,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logout.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Logout.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js*",
-              "RelativeToolTip": "wwwroot\\js\\Logout.js*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-12T15:38:09.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Login.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
-              "RelativeToolTip": "wwwroot\\js\\Login.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-03T17:47:59.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Register.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
-              "RelativeToolTip": "wwwroot\\js\\Register.js",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-03T18:56:04.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrdersManagingController.cs",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\OrdersManagingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersManagingController.cs",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\OrdersManagingController.cs",
-              "RelativeToolTip": "Controllers\\OrdersManagingController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T18:57:48.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAEwCcAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAMwGQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T17:11:35.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AlertHandler.js",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\AlertHandler.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\AlertHandler.js",
@@ -290,38 +238,35 @@
               "RelativeToolTip": "wwwroot\\js\\AlertHandler.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-03T17:16:33.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:46:58.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T17:16:33.038Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Home.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Home.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
-              "RelativeToolTip": "wwwroot\\js\\Home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-03T17:16:34.572Z",
-              "EditorCaption": ""
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T08:46:58.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "Home.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\HomeJS\\Home.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
+              "RelativeToolTip": "wwwroot\\js\\HomeJS\\Home.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T17:16:34.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
@@ -329,12 +274,73 @@
               "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T09:34:44.356Z",
+              "WhenOpened": "2025-05-03T09:34:44.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logout.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\UserJS\\Logout.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+              "RelativeToolTip": "wwwroot\\js\\UserJS\\Logout.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-12T15:38:09.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T22:05:01.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersManagingController.cs",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\OrdersManagingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersManagingController.cs",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\OrdersManagingController.cs",
+              "RelativeToolTip": "Controllers\\OrdersManagingController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:57:48.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\UserJS\\Register.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
+              "RelativeToolTip": "wwwroot\\js\\UserJS\\Register.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T18:56:04.456Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\UserJS\\Login.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+              "RelativeToolTip": "wwwroot\\js\\UserJS\\Login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T17:47:59.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -342,25 +348,23 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-12T15:24:29.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:24:29.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Orders.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\OrderAllJS\\Orders.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
+              "RelativeToolTip": "wwwroot\\js\\OrderAllJS\\Orders.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-03T17:35:08.927Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Orders.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Orders.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
-              "RelativeToolTip": "wwwroot\\js\\Orders.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-03T17:35:08.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -368,12 +372,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:30:59.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:30:59.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ProductsManagingController.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\ProductsManagingController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsManagingController.cs",
@@ -381,25 +384,23 @@
               "RelativeToolTip": "Controllers\\ProductsManagingController.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAYwIgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T11:10:52.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T11:10:52.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cart.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\CartJS\\Cart.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
+              "RelativeToolTip": "wwwroot\\js\\CartJS\\Cart.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-04T08:38:06.901Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Cart.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Cart.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
-              "RelativeToolTip": "wwwroot\\js\\Cart.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-04T08:38:06.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
@@ -407,12 +408,11 @@
               "RelativeToolTip": "Controllers\\CartController.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAIwD8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T09:35:32.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T09:35:32.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "SendingAddress.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\SendingAddress.cs",
               "RelativeDocumentMoniker": "Models\\SendingAddress.cs",
@@ -420,12 +420,11 @@
               "RelativeToolTip": "Models\\SendingAddress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:47:19.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T14:47:19.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -433,12 +432,11 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:57:49.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T21:57:49.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "StandardOrderItemCreator.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\FactoryDesignPatern\\StandardOrderItemCreator.cs",
               "RelativeDocumentMoniker": "FactoryDesignPatern\\StandardOrderItemCreator.cs",
@@ -446,12 +444,11 @@
               "RelativeToolTip": "FactoryDesignPatern\\StandardOrderItemCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:18:20.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T14:18:20.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderItemCreator.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\FactoryDesignPatern\\OrderItemCreator.cs",
               "RelativeDocumentMoniker": "FactoryDesignPatern\\OrderItemCreator.cs",
@@ -459,12 +456,11 @@
               "RelativeToolTip": "FactoryDesignPatern\\OrderItemCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:17:44.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T14:17:44.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -472,12 +468,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:02:49.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:02:49.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
@@ -485,12 +480,11 @@
               "RelativeToolTip": "Models\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:02:48.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:02:48.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "MyDatabase.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\MyDatabase.cs",
               "RelativeDocumentMoniker": "Models\\MyDatabase.cs",
@@ -498,12 +492,11 @@
               "RelativeToolTip": "Models\\MyDatabase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:47:17.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T08:47:17.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -511,12 +504,11 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAwwEkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:53:54.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T14:53:54.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UpdateOrderStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\UpdateOrderStatusDto.cs",
               "RelativeDocumentMoniker": "DataDto\\UpdateOrderStatusDto.cs",
@@ -524,12 +516,11 @@
               "RelativeToolTip": "DataDto\\UpdateOrderStatusDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:57:27.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T10:57:27.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -537,12 +528,11 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:03:13.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T07:03:13.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UpdateQuantityDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\UpdateQuantityDto.cs",
               "RelativeDocumentMoniker": "DataDto\\UpdateQuantityDto.cs",
@@ -550,12 +540,11 @@
               "RelativeToolTip": "DataDto\\UpdateQuantityDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T09:56:22.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T09:56:22.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "UserRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\UserRequestDto.cs",
               "RelativeDocumentMoniker": "DataDto\\UserRequestDto.cs",
@@ -563,12 +552,11 @@
               "RelativeToolTip": "DataDto\\UserRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:54:59.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T10:54:59.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ApplicationDbContextSeed.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Data\\ApplicationDbContextSeed.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContextSeed.cs",
@@ -576,12 +564,11 @@
               "RelativeToolTip": "Data\\ApplicationDbContextSeed.cs",
               "ViewState": "AgIAAL4AAAAAAAAAAAAQwNAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T21:58:47.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T21:58:47.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IdDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\IdDto.cs",
               "RelativeDocumentMoniker": "DataDto\\IdDto.cs",
@@ -589,12 +576,11 @@
               "RelativeToolTip": "DataDto\\IdDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:55:38.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T10:55:38.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CartSubmissionDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\CartSubmissionDto.cs",
               "RelativeDocumentMoniker": "DataDto\\CartSubmissionDto.cs",
@@ -602,12 +588,11 @@
               "RelativeToolTip": "DataDto\\CartSubmissionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:57:01.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T10:57:01.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AddressDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\AddressDto.cs",
               "RelativeDocumentMoniker": "DataDto\\AddressDto.cs",
@@ -615,12 +600,11 @@
               "RelativeToolTip": "DataDto\\AddressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T10:13:58.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T10:13:58.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\DataDto\\ProductDto.cs",
               "RelativeDocumentMoniker": "DataDto\\ProductDto.cs",
@@ -628,12 +612,11 @@
               "RelativeToolTip": "DataDto\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:57:09.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T10:57:09.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\OrdersManaging\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\OrdersManaging\\Index.cshtml",
@@ -641,12 +624,11 @@
               "RelativeToolTip": "Views\\OrdersManaging\\Index.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAAACkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T18:48:25.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T18:48:25.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "RegisterModal.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Home\\RegisterModal.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\RegisterModal.cshtml",
@@ -658,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "CartSendModal.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Cart\\CartSendModal.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\CartSendModal.cshtml",
@@ -670,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
@@ -682,19 +664,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "CartSend.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\CartSend.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
-              "RelativeToolTip": "wwwroot\\js\\CartSend.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\CartJS\\CartSend.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
+              "RelativeToolTip": "wwwroot\\js\\CartJS\\CartSend.js",
               "ViewState": "AgIAAEQAAAAAAAAAAAAIwFoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-04T10:50:05.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "LoginModal.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Home\\LoginModal.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LoginModal.cshtml",
@@ -706,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProductAddModal.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\ProductsManaging\\ProductAddModal.cshtml",
               "RelativeDocumentMoniker": "Views\\ProductsManaging\\ProductAddModal.cshtml",
@@ -718,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -730,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ProductEditModal.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\ProductsManaging\\ProductEditModal.cshtml",
               "RelativeDocumentMoniker": "Views\\ProductsManaging\\ProductEditModal.cshtml",
@@ -742,19 +724,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ProductManaging.js",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\ProductManaging.js",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
-              "RelativeToolTip": "wwwroot\\js\\ProductManaging.js",
+              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
+              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
+              "RelativeToolTip": "wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
               "ViewState": "AgIAAGkAAAAAAAAAAAAIwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-04T11:22:16.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
@@ -766,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -778,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeerPoint/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BeerPoint/True/SqlTable/dbo.Users.sql",
@@ -787,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\ProductsManaging\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ProductsManaging\\Index.cshtml",
@@ -796,18 +778,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T19:29:38.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T22:05:01.354Z"
             },
             {
               "$type": "Document",

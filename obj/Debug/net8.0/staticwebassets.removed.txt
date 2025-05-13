@@ -1,0 +1,8 @@
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Cart.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\CartSend.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Home.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Login.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Logout.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Orders.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\ProductManaging.js
+C:\Users\kubae\OneDrive\Dokumenty\PNET_semestralka\wwwroot\js\Register.js

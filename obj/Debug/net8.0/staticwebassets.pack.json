@@ -69,36 +69,36 @@
       "PackagePath": "staticwebassets\\js\\AlertHandler.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Cart.js",
-      "PackagePath": "staticwebassets\\js\\Cart.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\Cart.js",
+      "PackagePath": "staticwebassets\\js\\CartJS\\Cart.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartSend.js",
-      "PackagePath": "staticwebassets\\js\\CartSend.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\CartJS\\CartSend.js",
+      "PackagePath": "staticwebassets\\js\\CartJS\\CartSend.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Home.js",
-      "PackagePath": "staticwebassets\\js\\Home.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\HomeJS\\Home.js",
+      "PackagePath": "staticwebassets\\js\\HomeJS\\Home.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Login.js",
-      "PackagePath": "staticwebassets\\js\\Login.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\OrderAllJS\\Orders.js",
+      "PackagePath": "staticwebassets\\js\\OrderAllJS\\Orders.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Logout.js",
-      "PackagePath": "staticwebassets\\js\\Logout.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManagingJS\\ProductManaging.js",
+      "PackagePath": "staticwebassets\\js\\ProductManagingJS\\ProductManaging.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Orders.js",
-      "PackagePath": "staticwebassets\\js\\Orders.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Login.js",
+      "PackagePath": "staticwebassets\\js\\UserJS\\Login.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\ProductManaging.js",
-      "PackagePath": "staticwebassets\\js\\ProductManaging.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Logout.js",
+      "PackagePath": "staticwebassets\\js\\UserJS\\Logout.js"
     },
     {
-      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\Register.js",
-      "PackagePath": "staticwebassets\\js\\Register.js"
+      "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\UserJS\\Register.js",
+      "PackagePath": "staticwebassets\\js\\UserJS\\Register.js"
     },
     {
       "Id": "C:\\Users\\kubae\\OneDrive\\Dokumenty\\PNET_semestralka\\wwwroot\\js\\site.js",
