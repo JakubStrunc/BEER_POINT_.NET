@@ -1,0 +1,489 @@
+\doxysection{PNET\+\_\+semestralka.\+Migrations.\+My\+Database Class Reference}
+\hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database}{}\label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ad46e4c15dfd2a943d9a6e226c9c02edc}{My\+Database}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_data_1_1_application_db_context}{Application\+Db\+Context}} context)
+\begin{DoxyCompactList}\small\item\em initializes new instance of \doxylink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database}{My\+Database} clas \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_user}{User}}? \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a809f0117e51713f680c5e1a9aba94203}{Get\+User\+By\+Email}} (string Email)
+\begin{DoxyCompactList}\small\item\em returns a user by their email address \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_abac1e7a479990951097c158260b7aa77}{Add\+Customer}} (string username, string email, string password)
+\begin{DoxyCompactList}\small\item\em adds a new customer to the database \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} $>$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a2bc1c390bcb75db785e7c56ae8d1d0ef}{Get\+Orders\+By\+Customer\+Id}} (int customer\+Id)
+\begin{DoxyCompactList}\small\item\em returns a list of orders for a given customer \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} $>$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aa97e450d7417b0e9f30a27834c16e166}{Get\+All\+Orders}} ()
+\begin{DoxyCompactList}\small\item\em returns a list of all orders \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}? \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_af5dd9881a26b3aacbc6163954b5ad7b3}{Get\+Order\+By\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em returns a specific order by ID \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae93aa099fa0d39b1441173e2fe406d76}{Update\+Order\+To\+State}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} order, string state)
+\begin{DoxyCompactList}\small\item\em updates the state of an order \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}? \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae74cfc654353952de85c4d4c9a79e97c}{Get\+Cart\+For\+Customer}} (int customer\+Id)
+\begin{DoxyCompactList}\small\item\em returns the cart for a customer if it exists \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a19ddbd1996bf42bd85b01dee183c9f88}{Add\+Cart\+For\+Customer}} (int customer\+Id)
+\begin{DoxyCompactList}\small\item\em creates a new cart for a customer \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a12b2c583b54fd7d33f4026b981fc5e98}{Remove\+Product\+From\+Cart}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} order)
+\begin{DoxyCompactList}\small\item\em removes a product from the cart \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}} $>$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a8cc498005bbcb88cf453edaa600307a2}{Get\+All\+Products}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves all products from the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}}? \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab279e36efb90d8efbc4de8e43487b6af}{Get\+Product\+By\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em returns a product by ID \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_acc5db29acbcb64010fb1cac6b24c7e1b}{Add\+New\+Product}} (string nazev, string popis, int cena, int mnozstvi, \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_seller}{Seller}} seller, string file\+Name)
+\begin{DoxyCompactList}\small\item\em adds a new product \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a37e0f4573c0c1d22984371f885dcb26c}{Delete\+Product}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}} product)
+\begin{DoxyCompactList}\small\item\em deletes a product from the database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a31c1bcc7ee71cbbef4e7783e24d964c7}{Update\+Product}} (int id, string nazev, string popis, int cena, int mnozstvi, bool use\+Existing\+Image, string file\+Name=null)
+\begin{DoxyCompactList}\small\item\em updates an existing product\textquotesingle{}s details \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab0e73ca3f5dac31c0581b3025fbdbd5b}{Add\+Address}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} address)
+\begin{DoxyCompactList}\small\item\em adds a new address to the database \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_data_dto_1_1_address_dto}{Address\+Dto}} $>$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aff1e208fc074f718eef4f69a4475764b}{Get\+Addresses\+By\+Id}} (int customer\+Id)
+\begin{DoxyCompactList}\small\item\em returns a list of addresses for a given customer \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a23e1ab950d07c4c03ff1f5edb678749f}{Get\+Address\+By\+Id\+And\+User}} (int? address\+Id, int user\+Id)
+\begin{DoxyCompactList}\small\item\em retrieves an address by its ID and associated user ID \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ac0e8bf60845c590f0eccd18a180e02fb}{Update\+Order\+Address}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} order, \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} address)
+\begin{DoxyCompactList}\small\item\em updates the address information for a given order \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0f5334a543e8b93eb2ba411ff27b1354}{Delete\+Address}} (int address\+Id)
+\begin{DoxyCompactList}\small\item\em deletes a specified address from the database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a4f36b8e8b1b137f45171c794018ccf5f}{Update\+Stock\+Quantities}} (ICollection$<$ Order\+Item $>$ items)
+\begin{DoxyCompactList}\small\item\em updates the stock quantities for the products \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0570504ea252d73a19b08784b76e551c}{Are\+All\+Products\+In\+Stock}} (\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} cart)
+\begin{DoxyCompactList}\small\item\em checks whether all products in the cart have sufficient stock \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a7fd5393694a7ff6e322c25417c14c4af}{Is\+Product\+In\+Cart}} (int cart\+Id, int product\+Id)
+\begin{DoxyCompactList}\small\item\em xhecks if a specific product is already in cart \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a3af8d4ae1b1d4f54e575b6ac5916dffa}{Add\+Product\+To\+Cart}} (int cart\+Id, int product\+Id)
+\begin{DoxyCompactList}\small\item\em adds a product to cart with a default quantity \end{DoxyCompactList}\item 
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a7fc3f0b93ea2af7f499d7728baae15b8}\label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a7fc3f0b93ea2af7f499d7728baae15b8} 
+void {\bfseries Save} ()
+\begin{DoxyCompactList}\small\item\em saves changes to the context \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ad46e4c15dfd2a943d9a6e226c9c02edc}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!MyDatabase@{MyDatabase}}
+\index{MyDatabase@{MyDatabase}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{MyDatabase()}{MyDatabase()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ad46e4c15dfd2a943d9a6e226c9c02edc} 
+PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+My\+Database (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_data_1_1_application_db_context}{Application\+Db\+Context}}}]{context}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+initializes new instance of \doxylink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database}{My\+Database} clas 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & the \doxylink{class_p_n_e_t__semestralka_1_1_data_1_1_application_db_context}{Application\+Db\+Context} instance used to interact with the database\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab0e73ca3f5dac31c0581b3025fbdbd5b}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AddAddress@{AddAddress}}
+\index{AddAddress@{AddAddress}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AddAddress()}{AddAddress()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab0e73ca3f5dac31c0581b3025fbdbd5b} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Add\+Address (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}}}]{address}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adds a new address to the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em address} & the address to add\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a19ddbd1996bf42bd85b01dee183c9f88}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AddCartForCustomer@{AddCartForCustomer}}
+\index{AddCartForCustomer@{AddCartForCustomer}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AddCartForCustomer()}{AddCartForCustomer()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a19ddbd1996bf42bd85b01dee183c9f88} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Add\+Cart\+For\+Customer (\begin{DoxyParamCaption}\item[{int}]{customer\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+creates a new cart for a customer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\+Id} & the ID of the customer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the newly created cart
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_abac1e7a479990951097c158260b7aa77}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AddCustomer@{AddCustomer}}
+\index{AddCustomer@{AddCustomer}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AddCustomer()}{AddCustomer()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_abac1e7a479990951097c158260b7aa77} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Add\+Customer (\begin{DoxyParamCaption}\item[{string}]{username}{, }\item[{string}]{email}{, }\item[{string}]{password}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adds a new customer to the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & the username of the customer.\\
+\hline
+{\em email} & the email address of the customer\\
+\hline
+{\em password} & the password for the customer account\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_acc5db29acbcb64010fb1cac6b24c7e1b}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AddNewProduct@{AddNewProduct}}
+\index{AddNewProduct@{AddNewProduct}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AddNewProduct()}{AddNewProduct()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_acc5db29acbcb64010fb1cac6b24c7e1b} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Add\+New\+Product (\begin{DoxyParamCaption}\item[{string}]{nazev}{, }\item[{string}]{popis}{, }\item[{int}]{cena}{, }\item[{int}]{mnozstvi}{, }\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_seller}{Seller}}}]{seller}{, }\item[{string}]{file\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adds a new product 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazev} & the name of the product\\
+\hline
+{\em popis} & the description of the product\\
+\hline
+{\em cena} & the price of the product\\
+\hline
+{\em mnozstvi} & the quantity of the product\\
+\hline
+{\em seller} & the seller of the product\\
+\hline
+{\em file\+Name} & the file name of the product photo\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a3af8d4ae1b1d4f54e575b6ac5916dffa}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AddProductToCart@{AddProductToCart}}
+\index{AddProductToCart@{AddProductToCart}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AddProductToCart()}{AddProductToCart()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a3af8d4ae1b1d4f54e575b6ac5916dffa} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Add\+Product\+To\+Cart (\begin{DoxyParamCaption}\item[{int}]{cart\+Id}{, }\item[{int}]{product\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adds a product to cart with a default quantity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cart\+Id} & ID of the cart \\
+\hline
+{\em product\+Id} & ID of the product\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0570504ea252d73a19b08784b76e551c}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!AreAllProductsInStock@{AreAllProductsInStock}}
+\index{AreAllProductsInStock@{AreAllProductsInStock}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{AreAllProductsInStock()}{AreAllProductsInStock()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0570504ea252d73a19b08784b76e551c} 
+bool PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Are\+All\+Products\+In\+Stock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}}]{cart}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+checks whether all products in the cart have sufficient stock 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cart} & the cart to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if all products have enough stock; false otherwise
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0f5334a543e8b93eb2ba411ff27b1354}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!DeleteAddress@{DeleteAddress}}
+\index{DeleteAddress@{DeleteAddress}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{DeleteAddress()}{DeleteAddress()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a0f5334a543e8b93eb2ba411ff27b1354} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Delete\+Address (\begin{DoxyParamCaption}\item[{int}]{address\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+deletes a specified address from the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em address\+Id} & the ID of the address to delete\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a37e0f4573c0c1d22984371f885dcb26c}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!DeleteProduct@{DeleteProduct}}
+\index{DeleteProduct@{DeleteProduct}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{DeleteProduct()}{DeleteProduct()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a37e0f4573c0c1d22984371f885dcb26c} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Delete\+Product (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}}}]{product}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+deletes a product from the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em product} & the product to delete\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a23e1ab950d07c4c03ff1f5edb678749f}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetAddressByIdAndUser@{GetAddressByIdAndUser}}
+\index{GetAddressByIdAndUser@{GetAddressByIdAndUser}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetAddressByIdAndUser()}{GetAddressByIdAndUser()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a23e1ab950d07c4c03ff1f5edb678749f} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Address\+By\+Id\+And\+User (\begin{DoxyParamCaption}\item[{int?}]{address\+Id}{, }\item[{int}]{user\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+retrieves an address by its ID and associated user ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em address\+Id} & the ID of the address to retrieve\\
+\hline
+{\em user\+Id} & the ID of the user associated with the address\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the address that matches the specified address ID and user ID, or null if not found
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aff1e208fc074f718eef4f69a4475764b}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetAddressesById@{GetAddressesById}}
+\index{GetAddressesById@{GetAddressesById}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetAddressesById()}{GetAddressesById()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aff1e208fc074f718eef4f69a4475764b} 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_data_dto_1_1_address_dto}{Address\+Dto}} $>$ PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Addresses\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{customer\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a list of addresses for a given customer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\+Id} & the ID of the customer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of addresses associated with the customer
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aa97e450d7417b0e9f30a27834c16e166}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetAllOrders@{GetAllOrders}}
+\index{GetAllOrders@{GetAllOrders}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetAllOrders()}{GetAllOrders()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_aa97e450d7417b0e9f30a27834c16e166} 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} $>$ PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+All\+Orders (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a list of all orders 
+
+\begin{DoxyReturn}{Returns}
+a list of all orders
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a8cc498005bbcb88cf453edaa600307a2}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetAllProducts@{GetAllProducts}}
+\index{GetAllProducts@{GetAllProducts}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetAllProducts()}{GetAllProducts()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a8cc498005bbcb88cf453edaa600307a2} 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}} $>$ PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+All\+Products (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Retrieves all products from the database. 
+
+\begin{DoxyReturn}{Returns}
+A list of all products
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae74cfc654353952de85c4d4c9a79e97c}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetCartForCustomer@{GetCartForCustomer}}
+\index{GetCartForCustomer@{GetCartForCustomer}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetCartForCustomer()}{GetCartForCustomer()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae74cfc654353952de85c4d4c9a79e97c} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}? PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Cart\+For\+Customer (\begin{DoxyParamCaption}\item[{int}]{customer\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns the cart for a customer if it exists 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\+Id} & the ID of the customer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the cart order for the customer or null if not found
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_af5dd9881a26b3aacbc6163954b5ad7b3}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetOrderById@{GetOrderById}}
+\index{GetOrderById@{GetOrderById}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetOrderById()}{GetOrderById()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_af5dd9881a26b3aacbc6163954b5ad7b3} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}? PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Order\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a specific order by ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the ID of the order\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the order with the specified ID or null if not found
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a2bc1c390bcb75db785e7c56ae8d1d0ef}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetOrdersByCustomerId@{GetOrdersByCustomerId}}
+\index{GetOrdersByCustomerId@{GetOrdersByCustomerId}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetOrdersByCustomerId()}{GetOrdersByCustomerId()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a2bc1c390bcb75db785e7c56ae8d1d0ef} 
+List$<$ \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}} $>$ PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Orders\+By\+Customer\+Id (\begin{DoxyParamCaption}\item[{int}]{customer\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a list of orders for a given customer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer\+Id} & the ID of the customer\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a list of orders associated to the customer
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab279e36efb90d8efbc4de8e43487b6af}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetProductById@{GetProductById}}
+\index{GetProductById@{GetProductById}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetProductById()}{GetProductById()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ab279e36efb90d8efbc4de8e43487b6af} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_product}{Product}}? PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+Product\+By\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a product by ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the ID of the product\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the product with the specified ID or null if not found
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a809f0117e51713f680c5e1a9aba94203}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!GetUserByEmail@{GetUserByEmail}}
+\index{GetUserByEmail@{GetUserByEmail}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{GetUserByEmail()}{GetUserByEmail()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a809f0117e51713f680c5e1a9aba94203} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_user}{User}}? PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Get\+User\+By\+Email (\begin{DoxyParamCaption}\item[{string}]{Email}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+returns a user by their email address 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Email} & the email address of the user\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a user with the specified email or null if not found
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a7fd5393694a7ff6e322c25417c14c4af}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!IsProductInCart@{IsProductInCart}}
+\index{IsProductInCart@{IsProductInCart}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{IsProductInCart()}{IsProductInCart()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a7fd5393694a7ff6e322c25417c14c4af} 
+bool PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Is\+Product\+In\+Cart (\begin{DoxyParamCaption}\item[{int}]{cart\+Id}{, }\item[{int}]{product\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+xhecks if a specific product is already in cart 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cart\+Id} & ID of the cart to check\\
+\hline
+{\em product\+Id} & ID of the product to check for\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the product is in the cart; otherwise false.
+\end{DoxyReturn}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a12b2c583b54fd7d33f4026b981fc5e98}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!RemoveProductFromCart@{RemoveProductFromCart}}
+\index{RemoveProductFromCart@{RemoveProductFromCart}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{RemoveProductFromCart()}{RemoveProductFromCart()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a12b2c583b54fd7d33f4026b981fc5e98} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Remove\+Product\+From\+Cart (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}}]{order}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+removes a product from the cart 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & the order to remove\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ac0e8bf60845c590f0eccd18a180e02fb}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!UpdateOrderAddress@{UpdateOrderAddress}}
+\index{UpdateOrderAddress@{UpdateOrderAddress}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{UpdateOrderAddress()}{UpdateOrderAddress()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ac0e8bf60845c590f0eccd18a180e02fb} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Update\+Order\+Address (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}}]{order}{, }\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}}}]{address}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+updates the address information for a given order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & the order to update\\
+\hline
+{\em address} & the new address to assign to the order\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae93aa099fa0d39b1441173e2fe406d76}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!UpdateOrderToState@{UpdateOrderToState}}
+\index{UpdateOrderToState@{UpdateOrderToState}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{UpdateOrderToState()}{UpdateOrderToState()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_ae93aa099fa0d39b1441173e2fe406d76} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Update\+Order\+To\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_order}{Order}}}]{order}{, }\item[{string}]{state}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+updates the state of an order 
+
+
+\begin{DoxyParams}{Parameters}
+{\em order} & the order to update\\
+\hline
+{\em state} & the new state of the order\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a31c1bcc7ee71cbbef4e7783e24d964c7}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!UpdateProduct@{UpdateProduct}}
+\index{UpdateProduct@{UpdateProduct}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{UpdateProduct()}{UpdateProduct()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a31c1bcc7ee71cbbef4e7783e24d964c7} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Update\+Product (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{string}]{nazev}{, }\item[{string}]{popis}{, }\item[{int}]{cena}{, }\item[{int}]{mnozstvi}{, }\item[{bool}]{use\+Existing\+Image}{, }\item[{string}]{file\+Name}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+updates an existing product\textquotesingle{}s details 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the ID of the product to update\\
+\hline
+{\em nazev} & the new name of the product\\
+\hline
+{\em popis} & the new description of the product\\
+\hline
+{\em cena} & the new price of the product\\
+\hline
+{\em mnozstvi} & the new quantity of the product\\
+\hline
+{\em use\+Existing\+Image} & indicates if the existing image should be used\\
+\hline
+{\em file\+Name} & the new file name of the product photo\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a4f36b8e8b1b137f45171c794018ccf5f}\index{PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}!UpdateStockQuantities@{UpdateStockQuantities}}
+\index{UpdateStockQuantities@{UpdateStockQuantities}!PNET\_semestralka.Migrations.MyDatabase@{PNET\_semestralka.Migrations.MyDatabase}}
+\doxysubsubsection{\texorpdfstring{UpdateStockQuantities()}{UpdateStockQuantities()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database_a4f36b8e8b1b137f45171c794018ccf5f} 
+void PNET\+\_\+semestralka.\+Migrations.\+My\+Database.\+Update\+Stock\+Quantities (\begin{DoxyParamCaption}\item[{ICollection$<$ Order\+Item $>$}]{items}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+updates the stock quantities for the products 
+
+
+\begin{DoxyParams}{Parameters}
+{\em items} & the collection of order items whose product quantities need to be updated\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/My\+Database.\+cs\end{DoxyCompactItemize}

@@ -5,7 +5,7 @@ namespace PNET_semestralka.CommandDesignPatern
 	/// <summary>
 	/// command for removing a product from the customer's cart
 	/// </summary>
-	public class RemoveProductCommand
+	public class RemoveProductCommand : ICommand
 	{
 		private readonly MyDatabase _database;
 		private readonly int _customerId;

@@ -1,0 +1,28 @@
+var class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database =
+[
+    [ "MyDatabase", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ad46e4c15dfd2a943d9a6e226c9c02edc", null ],
+    [ "AddAddress", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ab0e73ca3f5dac31c0581b3025fbdbd5b", null ],
+    [ "AddCartForCustomer", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a19ddbd1996bf42bd85b01dee183c9f88", null ],
+    [ "AddCustomer", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#abac1e7a479990951097c158260b7aa77", null ],
+    [ "AddNewProduct", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#acc5db29acbcb64010fb1cac6b24c7e1b", null ],
+    [ "AddProductToCart", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a3af8d4ae1b1d4f54e575b6ac5916dffa", null ],
+    [ "AreAllProductsInStock", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a0570504ea252d73a19b08784b76e551c", null ],
+    [ "DeleteAddress", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a0f5334a543e8b93eb2ba411ff27b1354", null ],
+    [ "DeleteProduct", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a37e0f4573c0c1d22984371f885dcb26c", null ],
+    [ "GetAddressByIdAndUser", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a23e1ab950d07c4c03ff1f5edb678749f", null ],
+    [ "GetAddressesById", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#aff1e208fc074f718eef4f69a4475764b", null ],
+    [ "GetAllOrders", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#aa97e450d7417b0e9f30a27834c16e166", null ],
+    [ "GetAllProducts", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a8cc498005bbcb88cf453edaa600307a2", null ],
+    [ "GetCartForCustomer", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ae74cfc654353952de85c4d4c9a79e97c", null ],
+    [ "GetOrderById", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#af5dd9881a26b3aacbc6163954b5ad7b3", null ],
+    [ "GetOrdersByCustomerId", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a2bc1c390bcb75db785e7c56ae8d1d0ef", null ],
+    [ "GetProductById", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ab279e36efb90d8efbc4de8e43487b6af", null ],
+    [ "GetUserByEmail", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a809f0117e51713f680c5e1a9aba94203", null ],
+    [ "IsProductInCart", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a7fd5393694a7ff6e322c25417c14c4af", null ],
+    [ "RemoveProductFromCart", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a12b2c583b54fd7d33f4026b981fc5e98", null ],
+    [ "Save", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a7fc3f0b93ea2af7f499d7728baae15b8", null ],
+    [ "UpdateOrderAddress", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ac0e8bf60845c590f0eccd18a180e02fb", null ],
+    [ "UpdateOrderToState", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#ae93aa099fa0d39b1441173e2fe406d76", null ],
+    [ "UpdateProduct", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a31c1bcc7ee71cbbef4e7783e24d964c7", null ],
+    [ "UpdateStockQuantities", "class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database.html#a4f36b8e8b1b137f45171c794018ccf5f", null ]
+];

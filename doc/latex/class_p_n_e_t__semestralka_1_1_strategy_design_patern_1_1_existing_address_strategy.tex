@@ -1,0 +1,54 @@
+\doxysection{PNET\+\_\+semestralka.\+Strategy\+Design\+Patern.\+Existing\+Address\+Strategy Class Reference}
+\hypertarget{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy}{}\label{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy}\index{PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy@{PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy}}
+
+
+strategy for retrieving an existing address for the user  
+
+
+Inheritance diagram for PNET\+\_\+semestralka.\+Strategy\+Design\+Patern.\+Existing\+Address\+Strategy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy_a0692811151b3c2a21a4bf81a3b593a28}\label{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy_a0692811151b3c2a21a4bf81a3b593a28} 
+{\bfseries Existing\+Address\+Strategy} (int? address\+Id, \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_migrations_1_1_my_database}{My\+Database}} database)
+\item 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} \mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy_ac2800c25999c2bac3ccafb403864c23e}{Get\+Address}} (int user\+Id)
+\begin{DoxyCompactList}\small\item\em retrieves the existing address associated with provided user ID \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+strategy for retrieving an existing address for the user 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy_ac2800c25999c2bac3ccafb403864c23e}\index{PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy@{PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy}!GetAddress@{GetAddress}}
+\index{GetAddress@{GetAddress}!PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy@{PNET\_semestralka.StrategyDesignPatern.ExistingAddressStrategy}}
+\doxysubsubsection{\texorpdfstring{GetAddress()}{GetAddress()}}
+{\footnotesize\ttfamily \label{class_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_existing_address_strategy_ac2800c25999c2bac3ccafb403864c23e} 
+\mbox{\hyperlink{class_p_n_e_t__semestralka_1_1_models_1_1_sending_address}{Sending\+Address}} PNET\+\_\+semestralka.\+Strategy\+Design\+Patern.\+Existing\+Address\+Strategy.\+Get\+Address (\begin{DoxyParamCaption}\item[{int}]{user\+Id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+retrieves the existing address associated with provided user ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Id} & the ID of the user whose address is being retrieved\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the existing address or null if not found
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_p_n_e_t__semestralka_1_1_strategy_design_patern_1_1_i_strategy_ac813c11e5732a3730d8158cb25ee6628}{PNET\+\_\+semestralka.\+Strategy\+Design\+Patern.\+IStrategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Strategy\+Design\+Patern/Existing\+Address\+Strategy.\+cs\end{DoxyCompactItemize}
